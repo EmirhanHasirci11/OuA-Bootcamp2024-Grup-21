@@ -35,7 +35,7 @@ OuA-Bootcamp2024-Grup-21
 
 
 
-[Trello Backlog Url](https://www.google.com "ParToy Game Trello")
+[Trello Backlog Url](https://trello.com/b/ufkwFhYQ/oua-bootcamp2024-grup-21 "ParToy Game Trello")
 
 ---
 
