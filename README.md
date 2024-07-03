@@ -6,7 +6,6 @@ OuA-Bootcamp2024-Grup-21
 
 ### Takım Elemanları
 
----
 
 - Enes ELDEŞ: Product Owner
 - Emirhan Hasırcı: Scrum Master
@@ -16,25 +15,25 @@ OuA-Bootcamp2024-Grup-21
 
 ## Ürün İsmi
 
----
+
 
 --ParToy Game--
 
 ## Ürün Açıklaması
 
----
+
 
 ## Ürün Özellikleri
 
----
+
 
 ## Hedef Kitle
 
----
+
 
 ## Product Backlog URL
 
----
+
 
 [Trello Backlog Url](https://www.google.com "ParToy Game Trello")
 
