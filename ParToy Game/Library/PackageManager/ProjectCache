@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638559724827978263
-    m_Hash: 4039134798
+      ticks: 638559754428002146
+    m_Hash: 4146702806
   m_LockFileStatus:
     m_FilePath: C:/Users/Enes/Desktop/OuA-Bootcamp2024-Grup-21/ParToy Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638559724828021681
-    m_Hash: 3928696729
+      ticks: 638559754428002146
+    m_Hash: 1431790081
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
