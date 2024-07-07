@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Enes/Scenes/MainHouseScene.unity
+- path: Assets/Enes/Scenes/Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
