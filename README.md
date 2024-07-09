@@ -60,6 +60,14 @@ OuA-Bootcamp2024-Grup-21
 - Backlog üzerindeki tasklar, **agile yönetim stratejisiyle** async biçimde geliştirilmektedir.
 - İlk sprintte tamamlanması gereken tahmini puanı 300 olan tasklerden, ekip içerisinde birden fazla kişide ortaya çıkan sağlık durumları sebebiyle **240 puanı** tamamlanabilmiştir. İkinci sprintte eksiklerin kapatılması hedeflenmektedir.
 
+### -- Daily Scrum Chats --
+
+
+![First Meet](https://github.com/EmirhanHasirci11/OuA-Bootcamp2024-Grup-21/assets/54208249/3ad062b0-d200-4586-9dbb-be21874c39d3)
+![Second Meet](https://github.com/EmirhanHasirci11/OuA-Bootcamp2024-Grup-21/assets/54208249/f2f1ec13-f22f-424e-b1bf-40dfb61f984f)
+![Progress](https://github.com/EmirhanHasirci11/OuA-Bootcamp2024-Grup-21/assets/54208249/e92e062b-b2e7-4941-8031-b769524fc93c)
+
+
 #### -Sprint Backlog Updates-
 
 **:green_book: YEŞİL OLANLAR 20 PUAN**
@@ -95,6 +103,25 @@ OuA-Bootcamp2024-Grup-21
 ### Multiplayer Altyapı
 
 ![Multiplayer Menü](https://github.com/EmirhanHasirci11/OuA-Bootcamp2024-Grup-21/assets/54208249/b5ed87c1-e1ab-444d-8dd0-3a8ee2a1239b)
+
+
+### -Sprint Review-
+- Ekip ile tanışarak güçlü ve güçsüz olduğumuz yanları tartışarak iş bölme işlemi için toplantılar düzenlendi.
+- Projede herkesin çalışabilmesi için yapılacaklar iş parçacıklarına bölündü ve agile proje yönetimi methodoljisiyle çalışılmaya başlandı.
+- Proje üzerinde eş zamanlı çalışabilmek için versiyon kontrol sistemlerinden GitHub tercih edildi ve gerekli ayarları düzenlendi.
+- Oyun türü, konsepti ve özgün değerleri üzerine araştırmalar yapıldı ve "oyuncak" konseptli 2-8 oyunculu multiplayer bir party oyunu yapılmasına karar verildi.
+- Temaya uyumlu olarak çeşitli low poly asset araştırması başlandı.
+- Ana karakterin basit bir şekilde base modeli oluşturuldu.
+- Ana karakteri kişiselleştirebilmek için farklı grafik asset tasarımları karar verildi ve hazırlanmaya başlandı.
+- Her kişinin kendi özgün fikrini ortaya çıkartabilmesi için bir adet minigame tasarlanması istendi ve bunun sonucunda oyunun demosunda hazır olarak çıkması düşünülen 5 adet farklı mekanikte minigame hazırlandı.
+- Oyuncuların etkileşime girebilmeleri için multiplayer kod altyapısı oluşturulmaya başlandı.
+- Kullanıcıların bu minigame'leri oynamasını bir hikayeye bağlamak için cadı kazanlı bir kulübe içerisinde menü ekranı dizayn edildi.
+
+### -Sprint Retrospective-
+- İlk aşamada yetkinliklerimizi düşünmeden oyun türünü belirlemeye çalıştığımız için bu süreçte vakit kaybettik, yapabileceklerimizi düşündükten sonra bu oyun türünü yapmaya karar verdik. Diğer sprintlerde yapılacak geliştirme aşamalarında yetkinliklerimizi göz önüne alıp zaman kaybını önlemek hedeflenmiştir.
+- Bütünleme haftaları, bayram ve çeşitli hastalıklar dolayısıyla çalışma süresi beklediğimizin altında kalmıştır. Daha planlı ve programlı bir şekilde ilerleyerek ikinci sprint'te ilkinde eksik bıraktığımız işlerin telafi edilmesi amaçlanmıştır.
+- Çok sayıda oyun mekaniği düşünülüp tasarlandığı için geliştirme aşamasında sorunlar ortaya çıkabilir, sorunları en aza indirgemek için herkesin kendi oyununu göz önüne alarak diğer geliştirme aşamalarına da katkıda bulunması planlanmıştır.
+
 
 #### -İlk Sprint Jüri Notu-
 
