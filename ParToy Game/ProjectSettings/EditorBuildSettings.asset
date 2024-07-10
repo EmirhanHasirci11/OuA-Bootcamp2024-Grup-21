@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Emirhan's Folder/NetcodeScene.unity
+    path: Assets/Emirhan's Folder/Scenes/NetcodeScene.unity
     guid: 8947bbc13dfcfe44d99922475498eb69
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
