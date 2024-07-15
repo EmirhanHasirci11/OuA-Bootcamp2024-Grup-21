@@ -66,3 +66,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Packages/packages-lock.json
+ParToy Game/Library/ArtifactDB
+ParToy Game/Library/Bee/1900b0aEDbg.dag.json
+ParToy Game/Library/Search/transactions.db
+ParToy Game/Library/SourceAssetDB
+ParToy Game/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
