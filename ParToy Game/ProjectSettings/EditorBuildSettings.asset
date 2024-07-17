@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Emirhan's Folder/Scenes/CurrentLobby.unity
     guid: b6c0d757869aa6147a3a440bddd36c5a
+  - enabled: 1
+    path: Assets/Enes/Scenes/HammerGameScene.unity
+    guid: 13d7afd1a89617643a57155468c89e45
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

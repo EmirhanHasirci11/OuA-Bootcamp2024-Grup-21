@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Emirhan's Folder/Scenes/ColorTileConquest.unity
+- path: Assets/Enes/Scenes/HammerGameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
