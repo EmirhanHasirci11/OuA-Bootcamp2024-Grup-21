@@ -723,12 +723,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6826166590348371096}
-  - component: {fileID: 1157138173979046127}
   - component: {fileID: 6772543163320822108}
   - component: {fileID: 328077301810450215}
   - component: {fileID: 7188140831200746285}
+  - component: {fileID: 3669826059745908646}
   m_Layer: 0
-  m_Name: Isometric Player
+  m_Name: Enhanced Isometric Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,18 +752,6 @@ Transform:
   - {fileID: 6317041215417190160}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1157138173979046127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7314925064332857320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b99d2705433d6244a80dfbd3056affce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &6772543163320822108
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -839,6 +827,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3669826059745908646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314925064332857320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7965f823eed84404bb9fcaa097fb8ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7683517693484688754
 GameObject:
   m_ObjectHideFlags: 0

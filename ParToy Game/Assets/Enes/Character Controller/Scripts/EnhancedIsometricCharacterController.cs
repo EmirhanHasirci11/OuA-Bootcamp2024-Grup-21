@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IsometricCharacterController : MonoBehaviour
+public class EnhancedIsometricCharacterController : MonoBehaviour
 {
     // references
     private PlayerInput playerInput;
@@ -27,8 +27,10 @@ public class IsometricCharacterController : MonoBehaviour
     private bool isJumpPressed = false;
     private float initialJumpVelocity;
     private float maxJumpHeight = 1.0f;
-    private float maxJumpTime = 0.5f;
+    private float maxJumpTime = 0.8f;
     private bool isJumping = false;
+    private int jumpCount = 0;
+    private int maxJumps = 2;   
 
     private void Awake()
     {
@@ -98,16 +100,28 @@ public class IsometricCharacterController : MonoBehaviour
 
     void handleJump()
     {
-        if (!isJumping && characterController.isGrounded && isJumpPressed)
+        if (characterController.isGrounded)
+        {
+            // Reset the jump count and isJumping when the character is grounded
+            jumpCount = 0;
+            isJumping = false;
+            animator.SetBool("isJumping", false);
+        }
+
+        if (isJumpPressed && (characterController.isGrounded || jumpCount < maxJumps))
         {
             animator.SetBool("isJumping", true);
             isJumping = true;
             currentMovement.y = initialJumpVelocity;
             currentRunMovement.y = initialJumpVelocity;
+            jumpCount++;
+            isJumpPressed = false; // Ensure this is only triggered once per jump press
         }
-        else if (!isJumpPressed && isJumping && characterController.isGrounded)
+
+        if (!isJumpPressed && isJumping && characterController.isGrounded)
         {
             isJumping = false;
+            animator.SetBool("isJumping", false);
         }
     }
 
