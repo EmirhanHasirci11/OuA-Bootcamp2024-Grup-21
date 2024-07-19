@@ -9,7 +9,7 @@ public class TileCaptureCollision : MonoBehaviour
     void Start()
     {
 
-        Transform playerColorTransform = transform.Find("PlayerColor");
+        Transform playerColorTransform = transform.Find("PlayerColorObject");
 
         if (playerColorTransform != null)
         {

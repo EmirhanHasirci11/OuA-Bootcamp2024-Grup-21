@@ -24,8 +24,6 @@ public class TestCharacter : MonoBehaviour
     public float movementSpeed = 10.0f;
     public float runSpeed = 30.0f;
     public float rotationSmoothTime = 0.12f; // Düzgün dönüþ için
-    private float turnSmoothVelocity; // Düzgün dönüþ için
-
     private float groundedGravity = -0.05f;
     private float gravity = -9.8f;
 
@@ -44,15 +42,21 @@ public class TestCharacter : MonoBehaviour
         animator = GetComponent<Animator>();
 
         // Hareket 
-        playerInput.CharacterControls.Movement.performed += context =>
-        {
+        playerInput.CharacterControls.Movement.performed += context => {
             currentMovementInput = context.ReadValue<Vector2>();
+            currentMovement.x = currentMovementInput.x * movementSpeed;
+            currentMovement.z = currentMovementInput.y * movementSpeed;
+            currentRunMovement.x = currentMovementInput.x * runSpeed;
+            currentRunMovement.z = currentMovementInput.y * runSpeed;
             isMovementPressed = currentMovementInput.x != 0 || currentMovementInput.y != 0;
         };
-        playerInput.CharacterControls.Movement.canceled += context =>
-        {
-            currentMovementInput = Vector2.zero;
-            isMovementPressed = false;
+
+        // to stop the character when the buttons are released
+        playerInput.CharacterControls.Movement.canceled += context => {
+            currentMovementInput = context.ReadValue<Vector2>();
+            currentMovement.x = currentMovementInput.x;
+            currentMovement.z = currentMovementInput.y;
+            isMovementPressed = currentMovementInput.x != 0 || currentMovementInput.y != 0;
         };
 
         // Koþma
@@ -76,12 +80,14 @@ public class TestCharacter : MonoBehaviour
         handleMove();
         handleGravity();
         handleJump();
+        Debug.Log(characterController.isGrounded);
     }
 
     void handleGravity()
     {
         if (characterController.isGrounded)
         {
+            animator.SetBool("isJumping", false);
             currentMovement.y = groundedGravity;
             currentRunMovement.y = groundedGravity;
         }
@@ -118,6 +124,7 @@ public class TestCharacter : MonoBehaviour
     {
         if (!isJumping && characterController.isGrounded && isJumpPressed)
         {
+            animator.SetBool("isJumping", true);
             isJumping = true;
             currentMovement.y = initialJumpVelocity;
             currentRunMovement.y = initialJumpVelocity;
