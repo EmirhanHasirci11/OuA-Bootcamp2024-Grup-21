@@ -1,32 +1,36 @@
-using Cinemachine.Utility;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : NetworkBehaviour
 {
     public BarManager healthBar;
 
     // unique player id
-    public int playerId = 0;
+    public NetworkVariable<int> playerId = new NetworkVariable<int>();
 
     // health variables
-    public int maxHealth = 100;
-    public int currentHealth;
+    public int maxHealth = 100; // --> float'a çevirmeyi unutma
+    public NetworkVariable<int> currentHealth = new NetworkVariable<int>();
 
     void Start()
     {
         // initialize currentHealth
-        currentHealth = maxHealth;
+        if (IsOwner)
+        {
+            currentHealth.Value = maxHealth;
+        }
     }
 
-    public void TakeDamage(int damage)
+    [ServerRpc]
+    public void TakeDamageServerRpc(int damage)
     {
-        currentHealth -= damage;
+        currentHealth.Value -= damage;
 
-        healthBar.SetTimeBar(currentHealth / maxHealth);
+        healthBar.SetTimeBar((float)currentHealth.Value / maxHealth);
 
-        if (currentHealth <= 0)
+        if (currentHealth.Value <= 0)
         {
             Die();
         }

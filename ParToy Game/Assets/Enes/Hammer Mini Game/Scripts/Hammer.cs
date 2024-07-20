@@ -1,11 +1,9 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
-using Unity.Services.Lobbies.Models;
 using UnityEngine;
 
-public class Hammer : MonoBehaviour
+public class Hammer : NetworkBehaviour
 {
     // references
     private Camera mainCamera;
@@ -30,7 +28,7 @@ public class Hammer : MonoBehaviour
     private bool isDragging = false;
 
     // unique hammer id
-    public int hammerId = 0;
+    public NetworkVariable<int> hammerId = new NetworkVariable<int>();
 
 
     void Start()
@@ -40,10 +38,13 @@ public class Hammer : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         remainingDragTime = maxDragTime;
 
-        // randomly initialize player id and match it with the hammer that player uses
-        hammerId = UnityEngine.Random.Range(1, 5000);
-        playerHealth.playerId = hammerId;
+        if (IsOwner)
+        {
+            hammerId.Value = Random.Range(1, 5000);
+            playerHealth.playerId.Value = hammerId.Value;
+        }
     }
+
     private Vector3 GetMouseWorldPos()
     {
         Vector3 mousePoint = Input.mousePosition;
@@ -71,6 +72,8 @@ public class Hammer : MonoBehaviour
 
     void Update()
     {
+        if (!IsOwner) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -93,8 +96,6 @@ public class Hammer : MonoBehaviour
                 Vector3 force = (newPos - transform.position) * forceMultiplier;
                 rb.AddForce(force, ForceMode.Force);
             }
-
-
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -122,17 +123,17 @@ public class Hammer : MonoBehaviour
             // get the collided player as PlayerHealth and deal damage
             PlayerHealth otherPlayer = collision.gameObject.GetComponent<PlayerHealth>();
 
-            if (otherPlayer != null && otherPlayer.playerId != hammerId && !isAttacked && hitVelocity > 8)
+            if (otherPlayer != null && otherPlayer.playerId.Value != hammerId.Value && !isAttacked && hitVelocity > 8)
             {
-                Debug.Log(hammerId);
-                Debug.Log(otherPlayer.playerId);
+                Debug.Log(hammerId.Value);
+                Debug.Log(otherPlayer.playerId.Value);
 
-                Debug.Log(otherPlayer.playerId != hammerId);
+                Debug.Log(otherPlayer.playerId.Value != hammerId.Value);
 
-                otherPlayer.TakeDamage(((int)hitDamage));
+                otherPlayer.TakeDamageServerRpc((int)hitDamage);
 
                 isAttacked = true;
-                Debug.Log(otherPlayer.currentHealth);
+                Debug.Log(otherPlayer.currentHealth.Value);
             }
 
             Invoke(nameof(resetEnable), disableTime);
