@@ -1,3 +1,4 @@
+using Assets.Emirhan_s_Folder.Scripts.LobbyV2.Core;
 using Assets.Emirhan_s_Folder.Scripts.LobbyV2.Game;
 using System;
 using System.Collections;
@@ -18,6 +19,7 @@ public class PopulateUI : MonoBehaviour
     [SerializeField] GameObject playerInfoPrefab;
     [SerializeField] private Button _readyButton;
     [SerializeField] private Button _startButton;
+    private string _gameMode;
     private string lobbyID;
 
     private void OnEnable()
@@ -28,6 +30,7 @@ public class PopulateUI : MonoBehaviour
             GameLobbyEvents.OnLobbyReady += OnLobbyReady;
             _startButton.onClick.AddListener(OnStartButtonClicked);
         }
+        GameLobbyEvents.OnLobbyUpdated += OnLobbyUpdated;
     }
 
     private async void OnStartButtonClicked()
@@ -45,7 +48,20 @@ public class PopulateUI : MonoBehaviour
         _readyButton.onClick.RemoveListener(OnReadyPressed);
         _startButton.onClick.RemoveListener(OnStartButtonClicked);
         GameLobbyEvents.OnLobbyReady -= OnLobbyReady;
+        GameLobbyEvents.OnLobbyUpdated -= OnLobbyUpdated;
     }
+
+    private void OnLobbyUpdated()
+    {
+       _gameMode= GameLobbyManager.Instance.GetMinigame();
+        UpdateMinigame();
+
+    }
+    private void UpdateMinigame()
+    {
+        gameMode.text = _gameMode;
+    }
+
     private async void OnReadyPressed()
     {
         bool succeed = await GameLobbyManager.Instance.SetPlayerReady();

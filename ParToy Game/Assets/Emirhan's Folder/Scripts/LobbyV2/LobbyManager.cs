@@ -19,18 +19,15 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         private static Lobby _lobby;
         private Coroutine _hearthbeatCoroutine;
         private Coroutine _refreshLobbyCoroutine;
-        public async Task<bool> CreateLobby(int maxPlayer, bool isPrivate, Dictionary<string, string> data)
+        public async Task<bool> CreateLobby(int maxPlayer, bool isPrivate, Dictionary<string, string> data, Dictionary<string, string> lobbyData)
         {
             Dictionary<string, PlayerDataObject> playerData = SerializePlayerData(data);
             Player player = new Player(AuthenticationService.Instance.PlayerId, connectionInfo: null, playerData);
-            var a = new Dictionary<string, DataObject>();
-            a.Add("RelayJoinCode", new DataObject(DataObject.VisibilityOptions.Member, ""));
-
             CreateLobbyOptions options = new CreateLobbyOptions()
             {
                 IsPrivate = isPrivate,
                 Player = player,
-                Data=a
+                Data=SerializeLobbyData(lobbyData)
             };
 
             try
@@ -49,6 +46,16 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 
             Debug.Log($"Lobby creation is Succeed! ID: {_lobby.Id}");
             return true;
+        }
+
+        private Dictionary<string, DataObject> SerializeLobbyData(Dictionary<string, string> lobbyData)
+        {
+            Dictionary<string, DataObject> lobbyDataV = new Dictionary<string, DataObject>();
+            foreach (var (key, value) in lobbyData)
+            {
+                lobbyDataV.Add(key, new DataObject(visibility: DataObject.VisibilityOptions.Member, value));
+            }
+            return lobbyDataV;
         }
 
         private IEnumerator HearthbeatLobbyCoroutine(string lobbyId, float waitTimeSeconds)
@@ -174,6 +181,29 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         public Lobby GetLobby()
         {
             return _lobby;
+        }
+        public async Task<bool> UpdateLobbyData(Dictionary<string,string> data)
+        {
+            Dictionary<string, DataObject> lobbyData = SerializeLobbyData(data);
+
+            UpdateLobbyOptions options = new UpdateLobbyOptions()
+            {
+                Data = lobbyData
+            };
+
+            try
+            {
+                _lobby = await LobbyService.Instance.UpdateLobbyAsync(_lobby.Id, options);
+
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+
+            LobbyEvents.OnLobbyUpdated(_lobby);
+
+            return true;
         }
     }
 }

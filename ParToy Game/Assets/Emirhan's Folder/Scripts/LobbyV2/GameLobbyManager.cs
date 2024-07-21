@@ -17,9 +17,10 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
 {
     private List<LobbyPlayerData> _lobbyPlayerDatas = new List<LobbyPlayerData>();
     private LobbyPlayerData _localLobbyPlayerData;
-    private string relayCode = "";
+    private LobbyData _lobbyData;
     private int _maxNumberOfPlayer = 8;
     string mapName = "";
+    private bool inGame=false;
     public bool IsHost => _localLobbyPlayerData.Id == LobbyManager.Instance.GetHostId();
     private void OnEnable()
     {
@@ -34,7 +35,9 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
     {
         _localLobbyPlayerData = new LobbyPlayerData();
         _localLobbyPlayerData.Initialize(AuthenticationService.Instance.PlayerId, "HostPlayer");
-        bool succeeded = await LobbyManager.Instance.CreateLobby(_maxNumberOfPlayer, false, _localLobbyPlayerData.Serialize());
+        _lobbyData = new LobbyData();
+        _lobbyData.Initialize("Tournement");
+        bool succeeded = await LobbyManager.Instance.CreateLobby(_maxNumberOfPlayer, false, _localLobbyPlayerData.Serialize(),_lobbyData.Serialize());
         return succeeded;
     }
     public string GetLobbyCode()
@@ -72,26 +75,28 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
 
             _lobbyPlayerDatas.Add(lobbyPlayerData);
         }
+
+        _lobbyData=new LobbyData();
+        _lobbyData.Initialize(lobby.Data);
+
         GameLobbyEvents.OnLobbyUpdated?.Invoke();
 
         if (readyLobbyPlayerCount == lobby.Players.Count)
         {
             GameLobbyEvents.OnLobbyReady?.Invoke();
         }
-        if (relayCode != "")
+        if (_lobbyData.RelayJoinCode != default && !inGame)
         {
-            await JoinRelayServer(relayCode);
-            if (mapName!= "ColorTileConquest")
-            {
-                mapName = "ColorTileConquest";
-                SceneManager.LoadSceneAsync("ColorTileConquest");
-            }
+            await JoinRelayServer(_lobbyData.RelayJoinCode);
+            await SceneManager.LoadSceneAsync("ColorTileConquest");
         }
+       
     }
 
     private async Task<bool> JoinRelayServer(string value)
     {
         await RelayManager.Instance.JoinRelay(value);
+        inGame= true;
         string allocationID = RelayManager.Instance.GetAllocationId();
         string connectionData = RelayManager.Instance.GetConnectionData();
 
@@ -113,15 +118,19 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
     internal async Task StartGame()
     {
         string joinRelayCode = await RelayManager.Instance.CreateRelay(_maxNumberOfPlayer);
-        Lobby loby = LobbyManager.Instance.GetLobby();
-        loby.Data["RelayJoinCode"] = (new DataObject(DataObject.VisibilityOptions.Member, joinRelayCode));
-        relayCode = joinRelayCode;
-
+        inGame= true;
         string allocationID = RelayManager.Instance.GetAllocationId();
         string connectionData = RelayManager.Instance.GetConnectionData();
+        _lobbyData.RelayJoinCode=joinRelayCode;
+        await LobbyManager.Instance.UpdateLobbyData(_lobbyData.Serialize());
 
         await LobbyManager.Instance.UpdatePlayerData(_localLobbyPlayerData.Id, _localLobbyPlayerData.Serialize(), allocationID, connectionData);
 
         await SceneManager.LoadSceneAsync("ColorTileConquest");
+    }
+
+    internal string GetMinigame()
+    {
+        return _lobbyData.LobbyGameMode;
     }
 }
