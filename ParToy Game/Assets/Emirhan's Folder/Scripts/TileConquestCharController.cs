@@ -19,8 +19,8 @@ public class TileConquestCharController : MonoBehaviour
     private bool isRunPressed;
 
     // constants
-    private float movementSpeed = 10.0f;
-    private float runSpeed = 20.0f;
+    private float movementSpeed = 20.0f;
+    private float runSpeed = 30.0f;
     private float rotationFactorPerFrame = 15.0f;
     private float groundedGravity = -.05f;
     private float gravity = -9.8f;
@@ -28,7 +28,7 @@ public class TileConquestCharController : MonoBehaviour
     // jump variables
     private bool isJumpPressed = false;
     private float initialJumpVelocity;
-    private float maxJumpHeight = 2.0f;
+    private float maxJumpHeight = 3.0f;
     private float maxJumpTime = 0.5f;
     private bool isJumping = false;
 

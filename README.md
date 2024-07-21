@@ -131,8 +131,171 @@ OuA-Bootcamp2024-Grup-21
 
 - Oyun içerisinde tutacağımız kullanıcı istatistikleri sayesinde puanlarını kontrol etmelerini sağlamayı planladık.
 
+---
+
+## Sprint 2
+
+### -- Sprint Notları--
+
+- Herkesin bireysel hazırlamak üzere karar verdiği 5 adet minigame'in tasarımı tamamlandı ve hepsinin test edilebilir demosu geliştirildi.
+- Lobi kurma, lobileri listeleme, lobiye katılma, lobi içi sahne ve UI tasarımları hazırlanıp, kodlaması yapılarak oyuna implemente edildi.
+- Lobby manager ve Relay servisleri altyapıya eklendi ve başarıyla ilk multiplayer testi başarıyla sonuçlandı.
+- Ana menü ekranının UI kodlanması ve çalıştırılması gerçekleştirildi.
+- Karakter özelleştirmesi için kullanıcıların sahip oldukları kozmetikleri görüntüleyebilecekleri envanter ekranı tasarlandı.
+- Karakter özelleştirmelerinin satın alınabileceği mağaza sayfası tasarlandı ve oyun içi bir para birimi oluşturuldu.
+- Sprint içerisinde tamamlanması hedeflenen **400** tahmini puanın üstüne çıkılarak **420** puanlık kısım tamamlanmıştır.
+
+### -- Sprint 2 Daily Scrum Chats --
+
+![Meet](https://github.com/user-attachments/assets/bcca0d77-05b1-4c98-b12e-5f3fc1f94712)
+
+![Meet2](https://github.com/user-attachments/assets/2d1d9428-acb4-44bf-a3de-5000862dd168)
+
+![Meet3](https://github.com/user-attachments/assets/810e6ad7-01b2-4e6a-a90f-51029b5a61b3)
 
 
 
+#### -Sprint 2 Backlog Updates-
+
+**:green_book: YEŞİL OLANLAR 20 PUAN**
+**:orange_book:TURUNCU OLANLAR 40 PUAN**
+**:closed_book:KIRMIZI OLANLAR 60 PUAN**
+
+![Backlog](https://github.com/user-attachments/assets/e39445f2-b214-41e8-be44-47c60935eed2)
+
+![Backlog2](https://github.com/user-attachments/assets/2ccaf8e0-6d6d-4904-93d2-fb7125a63601)
+
+#### --İkinci sprint sonu backlog durumu--
+
+![EndOfSprintBacklog](https://github.com/user-attachments/assets/5ef0df56-8170-49e7-a3d8-e8e45d9393e8)
+
+## --Oyun içi Görselleri-- 
+
+#### Yeni karakter modellemesi
+
+![New Character](https://github.com/user-attachments/assets/3dc28def-c46c-4695-b335-6ecd1abf7c2f)
+
+#### Main Menu UI
+
+![UI Ana Menü](https://github.com/user-attachments/assets/87590e5e-da25-412a-afde-60ec00c3b19b)
+
+#### Kullanıcı Kozmetik Envanteri
+
+![UI Envanter](https://github.com/user-attachments/assets/fac79a7e-b80a-405d-be52-d54a309fb3e5)
+
+#### Kozmetik Mağazası
+
+![UI Mağaza](https://github.com/user-attachments/assets/e441e507-df19-4597-b788-f8d3f3a297c0)
 
 
+#### Lobby Kontrol Panelleri
+
+![Lobby](https://github.com/user-attachments/assets/d2111826-b076-41a7-8664-8df5b5c58b13)
+
+#### Lobby İçi Katılımcı Ekranı
+
+![Join Player Screen](https://github.com/user-attachments/assets/84c034e5-30a1-4748-be11-103593a592db)
+
+#### Lobby İçi Kurucu Ekranı
+
+![Host Player Screen](https://github.com/user-attachments/assets/92339130-c6e1-401f-8fc8-13cc1817f5b4)
+
+### Minigame Fotoğrafları
+
+#### Color Tile Conquest Minigame
+
+- Oyuncuların, koştukları zemini, ait oldukları renge boyayarak süre bitimi sonunda en çok zemin rengine sahip olan oyuncunun kazandığı bir minigame.
+
+![Color Tile Conquest](https://github.com/user-attachments/assets/354f1ab9-dc3e-44ef-a4ed-454d573dbd88)
+
+#### Iced Labyrinth Minigame
+
+- Buzla kaplı labirentin içerisinde buzları kıra kıra coin toplamaya çalışıp, sürenin sonunda en çok coine sahip olan kişinin kazandığı bir minigame.
+
+![Iced Labyrinth](https://github.com/user-attachments/assets/6eaab6e2-ec28-43dc-a094-c1d3dcd62f09)
+![Iced Labyrinth2](https://github.com/user-attachments/assets/83acfc40-967f-4607-8011-97edd9f9c633)
+
+#### Hammer Brawl Minigame
+
+- Musluk içerisindeki bir arena içerisinde elimizdeki balyozu imlecimiz ile kontrol ederek diğer oyuncuları öldürmeye çalışıp, hayatta kalmaya odaklandığımız bir minigame.
+
+![Hammer Brawl](https://github.com/user-attachments/assets/92e3ff97-f7cf-4000-858b-ee864531394b)
+
+![Hammer Brawl 2](https://github.com/user-attachments/assets/075fc939-865c-41c5-b557-d9c4bd358fcb)
+
+![Hammer Brawl 3](https://github.com/user-attachments/assets/81e6a8fa-965d-4913-8ca6-32064d6dcf00)
+
+#### Race to the Top Minigame
+
+- Duvarda bulunan rafları ve eşyaların üzerinden zıplayarak en tepeye doğru çıkmaya çalıştığımız, bir süre sonra en altta kalanın kaybettiği ve sürekli en üstte olmaya çalıştığımız bir minigame.
+
+![Race to the Top](https://github.com/user-attachments/assets/edc309b6-0af2-4a24-a623-6724e0e7f7a5)
+
+![Race to the Top 2](https://github.com/user-attachments/assets/c076dff1-54e6-4fff-b75d-30b85ec42c17)
+
+#### Kart Brawl Minigame
+
+- Karting arabalarıyla bir arena içerisinde, çeşitli yerlerde oluşan rastgele kutulardan gelen özellikleri kullanarak savaşıp, süre sonunda en çok rakip alt etme sayısına sahip olan oyuncunun kazandığı bir minigame.
+
+![Kart Brawl](https://github.com/user-attachments/assets/9afb958e-6446-49f9-9fe9-22ba22c6727c)
+
+![Kart Brawl](https://github.com/user-attachments/assets/3926c638-aae7-4603-8fd1-79e72018d35c)
+
+![rocket powerup](https://github.com/user-attachments/assets/ea44ef6f-703d-4eff-8bbb-6b6642f70ceb)
+
+### - 2. Sprint Review -
+- Ana karakter modeli, pazar araştırması sonucu ve temaya uygun olması için değiştirilerek yeniden tasarlandı.
+- Ana karakterin yürüme, koşma ve zıplama animasyonları yapılarak kod içerisinde karakter script'ine eklendi.
+- Herkesin kendi oluşturmasına olanak sağlanan 5 adet farklı minigame'in oynanılabilir test hallerine getirilip oyuna eklenme işlemi tamamlandı.
+- Ana menü, lobi arama, lobi oluşturma, lobiye katılma ve lobi içi UI tasarımları ve kodlanması tamamlandı.
+- Oyun içi karakter özelleştirmesinde kullanılacak olan eşyaların satılması için bir mağaza ve kullanıcıların sahip oldukları eşyaları görebilecekleri bir envanter sistemi hazırlanıp, UI tasarımları yapıldı.
+- Unity Game Services alt yapısında bulunan Lobby ve Relay servislerinin çalıştırılabilmesi için mimariler oluşturuldu ve hazırlanan lobi UI tasarımlarına entegre edildi.
+#### **Color Tile Conquest yapılanlar:**
+
+- TPS kamera kontrolü ve buna özel karakter kontrol script'i yazıldı.
+- Kullanıcının değdiği platformların değiştirilmesi ve takip edilmesi için bir script yazıldı.
+- Kullanıcı sayısında göre spawner oluşturulması için özel bir script oluşturuldu.
+
+#### **Iced Labyrinth yapılanlar:**
+
+- Labirent haritası  genel duvarlar tamamlandı.
+- 3 kere f tusuna basildiginda parçalanan kar küreleri ve buzlar eklendi.
+- Haritada sabit yerlere ışınlayan, dönüş yolu olmayan, duvarlar arası geçişe izin veren ve bazı yerlere ışınlayıp geri dönüş yolu olan çeşitli tiplerdeki geçit türleri eklendi.
+- Kaygan zemin eklendi.
+
+#### **Hammer Brawl yapılanlar:**
+
+- Oyunculara, karakterlere bağlı olan çekiç ile hasar verme mekaniği oluşturuldu.
+- İmleç ile çekiç kontrolü eklendi.
+- Lavabo içi konseptli arena tasarımı yapıldı.
+- Ouncuların can barlarını gösteren UI tasarımı karakterlere eklendi.
+- Çekiç ile saldırı yapmak ve taşımak için gerekli enerji özelliğinin mekanik kodlamaları yapıldı.
+
+#### **Race to the Top yapılanlar:**
+
+- Harita, ev ve oyuncak konseptine uygun olarak tasarlandı.
+- Üzerinden atlanarak gidilecek rafların spawnlanma mekanizması oluşturuldu. 
+- Oyunun oynanmasına engel olmaması için rafların üst üste spawnlanması engellendi. 
+- Oyun ilerledikçe rafların daha hızlı olması ve daha hızlı spawnlanması için sistem oluşturuldu.
+- Karakter hareket mekanikleri ve çift zıplama özelliği oluşturuldu.
+
+#### **Kart Brawl yapılanlar:**
+- Kart tasarımı yapıldı.
+- Oyun içi araç hareket mekanikleri oluşturuldu.
+- Arena içerisinde rastgele noktalarda çıkacak, diğer oyuncular ile savaşmaya yardımcı olacak güçlendirmeler(Bazuka, Kalkan, Mayın, Can Yenileme, Lazer) oluşturuldu.
+- Kişilerin renklerine göre araçların değişimi için gerekli alt yapı kuruldu.
+
+### - 2. Sprint Retrospective -
+- Sprint içerisinde herkes kendi hayal ettiğin minigame'i çalışmak üzere odaklandığı için oyun genelinde ortak olarak yapılması beklenen kısımlarda eksik kalındığı gözlemlendi. Diğer sprint içerisinde kişilerin proje geneline dağılımı ve eksikliklerin kapatılması için sıkı bir tempoda ilerlenmesine karar verildi.
+- Oyun mekaniklerinde özgünleşmeye gidilmesi için farklı özelliklerin araştırılmasına ve oyuna implemente edilmesine karar verildi.
+- Oyun içi kullanıcıların, izleyenler tarafından daha rahat bir şekilde anlaşılabilmesi için lobi ekranı üzerinde renk seçme ekranını tasarlanmasına karar verildi.
+- Lobi araştırma sekmesinden kod dışında giriş yapmak işleminin zor olduğu düşünüldüğü için lobi arama ekranına, isme göre arama özelliğinin eklenmesine karar verildi.
+- Oyun mekaniklerinin bazılarında, oyunculara keyif vermeyeceği düşünüldü ve bunların yeniden gözden geçirilip, değişikliğe gidilmesine karar verildi.
+- Oyun içi karakter özelleştirmesi için satılacak olan eşyaların mağaza üzerinde satın alınması için oluşturulan oyun içi nakit sisteminin oyunu kazanan kullanıcılara nasıl dağıtılması gerektiğine dair bir pazarlama yöntemi düşünülmesine karar verildi, sonraki sprint içerisinde uygulanacak. 
+
+#### -İkinci Sprint Jüri Notu-
+- Oyuncuların karakterlerini özelleştirip, kendi stillerini oluşturabilmeleri için bir market ve envanter sistemi düzenleyerek, oyunun ticaretleştirilebilitesini artırdık ve güzel bir pazarlama sistemi kurduk.
+- Birden farklı minigame üzerinde çalışarak, ekipteki herkesin aktif bir öğrenim, gelişim ve katkıda bulunmasına olanak sağladık.
+- Tasarlanan minigame'lerin yukarıda verilen görsellerdeki halleri sadece test aşaması için geliştirilen kısımdır, oyunun çıkış sürümünde belirlenen konsepte ve tasarımlara uygun olacak şekilde düzenlenecektir.
+
+---
