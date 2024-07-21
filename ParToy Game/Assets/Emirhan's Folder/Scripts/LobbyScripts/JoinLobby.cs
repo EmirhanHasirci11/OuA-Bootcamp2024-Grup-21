@@ -20,7 +20,11 @@ public class JoinLobby : MonoBehaviour
             options.Player = new Player(AuthenticationService.Instance.PlayerId);
             options.Player.Data = new Dictionary<string, PlayerDataObject>()
             {
-                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0") }
+                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0")},
+                {"Id",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,options.Player.Id) },
+                {"GamerTag",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"JoinPlayer") },
+                {"isReady",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"False") }
+
             };
             Lobby lobby = await LobbyService.Instance.JoinLobbyByCodeAsync(lobbyCode, options);
             GetComponent<CurrentLobby>().currentLobby = lobby;
@@ -43,7 +47,10 @@ public class JoinLobby : MonoBehaviour
             options.Player = new Player(AuthenticationService.Instance.PlayerId);
             options.Player.Data = new Dictionary<string, PlayerDataObject>()
             {
-                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0") }
+                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0") },
+                 {"Id",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,options.Player.Id) },
+                 {"GamerTag",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"JoinPlayer") },
+                 {"isReady",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"False") }
             };
             Lobby lobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyID, options);
             GetComponent<CurrentLobby>().currentLobby = lobby;

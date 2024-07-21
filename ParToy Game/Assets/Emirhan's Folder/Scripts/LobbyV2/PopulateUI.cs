@@ -1,9 +1,12 @@
+using Assets.Emirhan_s_Folder.Scripts.LobbyV2.Game;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PopulateUI : MonoBehaviour
 {
@@ -13,8 +16,44 @@ public class PopulateUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI gameMode;
     [SerializeField] GameObject playerContainer;
     [SerializeField] GameObject playerInfoPrefab;
+    [SerializeField] private Button _readyButton;
+    [SerializeField] private Button _startButton;
     private string lobbyID;
 
+    private void OnEnable()
+    {
+        _readyButton.onClick.AddListener(OnReadyPressed);
+        if (GameLobbyManager.Instance.IsHost)
+        {
+            GameLobbyEvents.OnLobbyReady += OnLobbyReady;
+            _startButton.onClick.AddListener(OnStartButtonClicked);
+        }
+    }
+
+    private async void OnStartButtonClicked()
+    {
+        await GameLobbyManager.Instance.StartGame();
+    }
+
+    private void OnLobbyReady()
+    {
+        _startButton.gameObject.SetActive(true);
+    }
+
+    private void OnDisable()
+    {
+        _readyButton.onClick.RemoveListener(OnReadyPressed);
+        _startButton.onClick.RemoveListener(OnStartButtonClicked);
+        GameLobbyEvents.OnLobbyReady -= OnLobbyReady;
+    }
+    private async void OnReadyPressed()
+    {
+        bool succeed = await GameLobbyManager.Instance.SetPlayerReady();
+        if (succeed)
+        {
+            _readyButton.gameObject.SetActive(false);
+        }
+    }
     public void PopulateUIElement()
     {
         ClearContainer();
@@ -28,10 +67,8 @@ public class PopulateUI : MonoBehaviour
     }
     void Start()
     {
-        _currentLobby = GameObject.Find("LobbyManager").GetComponent<CurrentLobby>();   
-        PopulateUIElement();
-        lobbyID = _currentLobby.currentLobby.Id;
-        InvokeRepeating(nameof(PollforLobbyUpdate), 1.1f, 2f);
+        lobbyCode.text = $"Lobby Code: {GameLobbyManager.Instance.GetLobbyCode()}";
+       
     }
 
     void InstantiatePlayerInfo(Player player)
