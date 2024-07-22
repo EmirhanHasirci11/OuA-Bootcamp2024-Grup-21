@@ -15,4 +15,14 @@ public class NavigationManager : MonoBehaviour
         panel.SetActive(false);
         this.gameObject.SetActive(true);
     }
+
+    public void ActivateCamera(GameObject camera)
+    {
+        camera.SetActive(true);
+    }
+
+    public void DeactivateCamera(GameObject camera)
+    {
+        camera.SetActive(false);
+    }
 }
