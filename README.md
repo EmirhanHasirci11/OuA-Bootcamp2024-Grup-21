@@ -143,7 +143,7 @@ OuA-Bootcamp2024-Grup-21
 - Ana menü ekranının UI kodlanması ve çalıştırılması gerçekleştirildi.
 - Karakter özelleştirmesi için kullanıcıların sahip oldukları kozmetikleri görüntüleyebilecekleri envanter ekranı tasarlandı.
 - Karakter özelleştirmelerinin satın alınabileceği mağaza sayfası tasarlandı ve oyun içi bir para birimi oluşturuldu.
-- Sprint içerisinde tamamlanması hedeflenen **400** tahmini puanın üstüne çıkılarak **420** puanlık kısım tamamlanmıştır.
+- Bootcamp üç sprint üzerinden yürütüleceği için **300-400-300** olarak sprintlere tamamlanması tahmin edilen puan olarak ataması gerçekleştirilen puanlardan, 2.Sprint içerisinde tamamlanması hedeflenen **400** tahmini puanın üstüne çıkılarak **420** puanlık kısım tamamlanmıştır.
 
 ### -- Sprint 2 Daily Scrum Chats --
 
