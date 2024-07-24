@@ -1,3 +1,4 @@
+using Assets.Emirhan_s_Folder.Scripts.LobbyV2;
 using Assets.Emirhan_s_Folder.Scripts.LobbyV2.Core;
 using Assets.Emirhan_s_Folder.Scripts.LobbyV2.Game;
 using System;
@@ -84,6 +85,7 @@ public class PopulateUI : MonoBehaviour
     void Start()
     {
         lobbyCode.text = $"Lobby Code: {GameLobbyManager.Instance.GetLobbyCode()}";
+        lobbyName.text = $"{LobbyManager.Instance.GetLobby().Name}";
        
     }
 

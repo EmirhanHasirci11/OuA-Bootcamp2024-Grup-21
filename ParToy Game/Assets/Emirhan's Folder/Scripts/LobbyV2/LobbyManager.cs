@@ -19,7 +19,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         private static Lobby _lobby;
         private Coroutine _hearthbeatCoroutine;
         private Coroutine _refreshLobbyCoroutine;
-        public async Task<bool> CreateLobby(int maxPlayer, bool isPrivate, Dictionary<string, string> data, Dictionary<string, string> lobbyData)
+        public async Task<bool> CreateLobby(string lobbyName,int maxPlayer, bool isPrivate, Dictionary<string, string> data, Dictionary<string, string> lobbyData)
         {
             Dictionary<string, PlayerDataObject> playerData = SerializePlayerData(data);
             Player player = new Player(AuthenticationService.Instance.PlayerId, connectionInfo: null, playerData);
@@ -32,7 +32,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 
             try
             {
-                _lobby = await LobbyService.Instance.CreateLobbyAsync("Lobby", maxPlayer, options);
+                _lobby = await LobbyService.Instance.CreateLobbyAsync(lobbyName, maxPlayer, options);
 
             }
             catch (Exception)

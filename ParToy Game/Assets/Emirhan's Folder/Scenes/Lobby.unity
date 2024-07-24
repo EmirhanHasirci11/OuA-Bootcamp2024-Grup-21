@@ -149,8 +149,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _joinLobbyCode: {fileID: 1339258494}
-  _HostButton: {fileID: 461517463}
+  _HostButton: {fileID: 196940503}
   _JoinButton: {fileID: 1257055437}
+  lobbyName: {fileID: 72620386}
+  maxPlayers: {fileID: 1885507390}
+  gameMode: {fileID: 1200814694}
+  isLobbyPrivate: {fileID: 544646983}
 --- !u!4 &5970881
 Transform:
   m_ObjectHideFlags: 0

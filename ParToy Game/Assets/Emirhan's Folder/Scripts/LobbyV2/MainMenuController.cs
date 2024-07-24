@@ -16,7 +16,10 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         [SerializeField] private TMP_InputField _joinLobbyCode;
         [SerializeField] private Button _HostButton;
         [SerializeField] private Button _JoinButton;
-
+        [SerializeField] TMP_InputField lobbyName;
+        [SerializeField] TMP_Dropdown maxPlayers;
+        [SerializeField] TMP_Dropdown gameMode;
+        [SerializeField] Toggle isLobbyPrivate;
         private void OnEnable()
         {
             _HostButton.onClick.AddListener(OnHostClicked);
@@ -30,7 +33,8 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 
         private async void OnHostClicked()
         {
-            bool succeed = await GameLobbyManager.Instance.CreateLobby();
+            int maxPlayerCount = Convert.ToInt32(maxPlayers.options[maxPlayers.value].text);
+            bool succeed = await GameLobbyManager.Instance.CreateLobby(lobbyName.text,isLobbyPrivate.isOn,maxPlayerCount,gameMode.options[gameMode.value].text);
             if (succeed)
             {
                 SceneManager.LoadScene("CurrentLobby");

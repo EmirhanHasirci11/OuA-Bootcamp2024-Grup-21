@@ -31,13 +31,14 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
     {
         LobbyEvents.OnLobbyUpdated -= OnLobbyUpdated;
     }
-    public async Task<bool> CreateLobby()
+    public async Task<bool> CreateLobby(string lobbyName,bool isPrivate,int maxPlayer, string gameMode)
     {
+        _maxNumberOfPlayer=maxPlayer;
         _localLobbyPlayerData = new LobbyPlayerData();
         _localLobbyPlayerData.Initialize(AuthenticationService.Instance.PlayerId, "HostPlayer");
         _lobbyData = new LobbyData();
-        _lobbyData.Initialize("Tournement");
-        bool succeeded = await LobbyManager.Instance.CreateLobby(_maxNumberOfPlayer, false, _localLobbyPlayerData.Serialize(),_lobbyData.Serialize());
+        _lobbyData.Initialize(gameMode);
+        bool succeeded = await LobbyManager.Instance.CreateLobby(lobbyName,_maxNumberOfPlayer, isPrivate, _localLobbyPlayerData.Serialize(),_lobbyData.Serialize());
         return succeeded;
     }
     public string GetLobbyCode()
