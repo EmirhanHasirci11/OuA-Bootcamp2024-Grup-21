@@ -16,6 +16,8 @@ public class PopulateUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI lobbyName;
     [SerializeField] TextMeshProUGUI lobbyCode;
     [SerializeField] TextMeshProUGUI gameMode;
+    [SerializeField] TextMeshProUGUI playerCount;
+    [SerializeField] TextMeshProUGUI privateState;
     [SerializeField] GameObject playerContainer;
     [SerializeField] GameObject playerInfoPrefab;
     [SerializeField] private Button _readyButton;
@@ -86,6 +88,8 @@ public class PopulateUI : MonoBehaviour
     {
         lobbyCode.text = $"Lobby Code: {GameLobbyManager.Instance.GetLobbyCode()}";
         lobbyName.text = $"{LobbyManager.Instance.GetLobby().Name}";
+        playerCount.text = $"Max Player: :{LobbyManager.Instance.GetLobby().MaxPlayers}";
+        privateState.text = $"Private Lobby: {LobbyManager.Instance.GetLobby().IsPrivate}";
        
     }
 

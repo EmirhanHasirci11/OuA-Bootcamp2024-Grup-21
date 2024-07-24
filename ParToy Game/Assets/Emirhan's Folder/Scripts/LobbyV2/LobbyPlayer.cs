@@ -10,10 +10,17 @@ public class LobbyPlayer : MonoBehaviour
 
     private LobbyPlayerData _data;
     private MaterialPropertyBlock _materialPropertyBlock;
+    private MaterialPropertyBlock _materialBlock;
 
     private void Start()
     {
         _materialPropertyBlock = new MaterialPropertyBlock();
+        _materialBlock = new MaterialPropertyBlock();
+        Transform body = transform.Find("Body");
+        Renderer BodyRender = body.GetComponent<Renderer>();
+        BodyRender.GetPropertyBlock(_materialBlock);
+        _materialBlock.SetColor("_Color",_data.Color);
+        BodyRender.SetPropertyBlock(_materialBlock);
     }
     public void SetData(LobbyPlayerData data)
     {
@@ -22,7 +29,7 @@ public class LobbyPlayer : MonoBehaviour
 
         if (_data.IsReady)
         {
-            if(_isReadyRenderer != null)
+            if (_isReadyRenderer != null)
             {
                 _isReadyRenderer.GetPropertyBlock(_materialPropertyBlock);
                 _materialPropertyBlock.SetColor("_Color", Color.green);

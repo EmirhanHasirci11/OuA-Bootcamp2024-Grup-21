@@ -13,16 +13,17 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 {
     public class MainMenuController : MonoBehaviour
     {
+       
         [SerializeField] private TMP_InputField _joinLobbyCode;
         [SerializeField] private Button _HostButton;
-        [SerializeField] private Button _JoinButton;
+        [SerializeField] private Button _JoinButton;        
         [SerializeField] TMP_InputField lobbyName;
         [SerializeField] TMP_Dropdown maxPlayers;
         [SerializeField] TMP_Dropdown gameMode;
         [SerializeField] Toggle isLobbyPrivate;
         private void OnEnable()
         {
-            _HostButton.onClick.AddListener(OnHostClicked);
+            _HostButton.onClick.AddListener(OnHostClicked);            
             _JoinButton.onClick.AddListener(OnJoinClicked);
         }
         private void OnDisable()
@@ -31,6 +32,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             _JoinButton.onClick.RemoveListener(OnJoinClicked);
         }
 
+       
         private async void OnHostClicked()
         {
             int maxPlayerCount = Convert.ToInt32(maxPlayers.options[maxPlayers.value].text);

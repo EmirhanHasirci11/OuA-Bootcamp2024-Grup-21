@@ -21,15 +21,32 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
     private int _maxNumberOfPlayer = 8;
     string mapName = "";
     private bool inGame=false;
+    private Dictionary<int, Color> _colors;
     public bool IsHost => _localLobbyPlayerData.Id == LobbyManager.Instance.GetHostId();
     private void OnEnable()
     {
+        _colors = new Dictionary<int, Color>();
+        _colors.Add(0, Color.red);
+        _colors.Add(1, Color.yellow);
+        _colors.Add(2, Color.blue);
+        _colors.Add(3, Color.green);
+        _colors.Add(4, Color.magenta);
+        _colors.Add(5, Color.cyan);
+        _colors.Add(6, Color.grey);
+        _colors.Add(7, Color.white);
         LobbyEvents.OnLobbyUpdated += OnLobbyUpdated;
     }
 
     private void OnDisable()
     {
         LobbyEvents.OnLobbyUpdated -= OnLobbyUpdated;
+    }
+    public async Task<bool> GetLobbies(GameObject prefab, GameObject container)
+    {
+        _localLobbyPlayerData = new LobbyPlayerData();
+        _localLobbyPlayerData.Initialize(AuthenticationService.Instance.PlayerId, "JoinPlayer");
+        bool succeeded = await LobbyManager.Instance.GetLobbies(prefab,container, _localLobbyPlayerData.Serialize());
+        return succeeded;
     }
     public async Task<bool> CreateLobby(string lobbyName,bool isPrivate,int maxPlayer, string gameMode)
     {
@@ -59,11 +76,12 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
         _lobbyPlayerDatas.Clear();
 
         int readyLobbyPlayerCount = 0;
-
+        int index = 0;
         foreach (Dictionary<string, PlayerDataObject> data in playerData)
         {
+            data["Color"]= new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, _colors[index++].ToString());
             LobbyPlayerData lobbyPlayerData = new LobbyPlayerData();
-            lobbyPlayerData.Initialize(data);
+            lobbyPlayerData.Initialize(data);            
 
             if (lobbyPlayerData.Id == AuthenticationService.Instance.PlayerId)
             {
@@ -73,7 +91,8 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
             {
                 readyLobbyPlayerCount++;
             }
-
+            if(index==_colors.Count)
+                index = 0;
             _lobbyPlayerDatas.Add(lobbyPlayerData);
         }
 
@@ -115,7 +134,7 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
         _localLobbyPlayerData.IsReady = true;
         return await LobbyManager.Instance.UpdatePlayerData(_localLobbyPlayerData.Id, _localLobbyPlayerData.Serialize());
     }
-
+   
     internal async Task StartGame()
     {
         string joinRelayCode = await RelayManager.Instance.CreateRelay(_maxNumberOfPlayer);
