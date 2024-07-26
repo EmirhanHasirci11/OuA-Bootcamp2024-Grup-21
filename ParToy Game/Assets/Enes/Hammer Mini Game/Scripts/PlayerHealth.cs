@@ -3,34 +3,30 @@ using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerHealth : NetworkBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public BarManager healthBar;
 
     // unique player id
-    public NetworkVariable<int> playerId = new NetworkVariable<int>();
+    public int playerId = 0;
 
     // health variables
-    public int maxHealth = 100; // --> float'a çevirmeyi unutma
-    public NetworkVariable<int> currentHealth = new NetworkVariable<int>();
+    public int maxHealth = 100;
+    public int currentHealth;
 
     void Start()
     {
         // initialize currentHealth
-        if (IsOwner)
-        {
-            currentHealth.Value = maxHealth;
-        }
+        currentHealth = maxHealth;
     }
 
-    [ServerRpc]
-    public void TakeDamageServerRpc(int damage)
+    public void TakeDamage(int damage)
     {
-        currentHealth.Value -= damage;
+        currentHealth -= damage;
 
-        healthBar.SetTimeBar((float)currentHealth.Value / maxHealth);
+        healthBar.SetTimeBar(currentHealth / maxHealth);
 
-        if (currentHealth.Value <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }

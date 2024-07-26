@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class NavigationManager : MonoBehaviour
 {
-    public void OpenPanel(GameObject panel)
+    private Animator mainAnimator;
+
+    private void Start()
     {
-        panel.SetActive(true);
-        this.gameObject.SetActive(false);
+        mainAnimator = GetComponent<Animator>();
     }
 
-    public void ClosePanel(GameObject panel)
-    {
-        panel.SetActive(false);
-        this.gameObject.SetActive(true);
-    }
-
+    // ACTIVATING CAMERAS
     public void ActivateCamera(GameObject camera)
     {
         camera.SetActive(true);
@@ -24,5 +20,18 @@ public class NavigationManager : MonoBehaviour
     public void DeactivateCamera(GameObject camera)
     {
         camera.SetActive(false);
+    }
+
+    // HANDLE ANIMATIONS
+    public void AnimationToFeatures(Animator animator)
+    {
+        mainAnimator.SetTrigger("out");
+        animator.SetTrigger("in");
+    }
+
+    public void AnimationToMainMenu(Animator animator)
+    {
+        mainAnimator.SetTrigger("in");
+        animator.SetTrigger("out");
     }
 }
