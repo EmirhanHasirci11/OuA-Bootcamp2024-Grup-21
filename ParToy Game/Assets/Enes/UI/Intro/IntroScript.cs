@@ -15,7 +15,7 @@ public class IntroScript : MonoBehaviour
     {
         animator.SetTrigger("out");
         timeline.SetActive(true);
-        Invoke(nameof(disableIntroPanel), 2f);
+        Invoke(nameof(disableIntroPanel), 4f);
     }
     private void disableIntroPanel()
     {
