@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 
-public class Hammer : NetworkBehaviour
+public class Hammer : MonoBehaviour
 {
     // references
     private Camera mainCamera;
@@ -11,6 +13,7 @@ public class Hammer : NetworkBehaviour
     public BarManager remainingTimeBar;
     public PlayerHealth playerHealth; // reference where the playerId is
     private float remainingDragTime; // drag time
+    public GameObject origin; // origin of the circle that hammer is going to move (player object)
 
     // variables that will be used to find mouse position
     private Vector3 offset;
@@ -28,8 +31,7 @@ public class Hammer : NetworkBehaviour
     private bool isDragging = false;
 
     // unique hammer id
-    public NetworkVariable<int> hammerId = new NetworkVariable<int>();
-
+    public int hammerId = 0;
 
     void Start()
     {
@@ -38,11 +40,9 @@ public class Hammer : NetworkBehaviour
         rb = GetComponent<Rigidbody>();
         remainingDragTime = maxDragTime;
 
-        if (IsOwner)
-        {
-            hammerId.Value = Random.Range(1, 5000);
-            playerHealth.playerId.Value = hammerId.Value;
-        }
+        // randomly initialize player id and match it with the hammer that player uses
+        hammerId = UnityEngine.Random.Range(1, 5000);
+        playerHealth.playerId = hammerId;
     }
 
     private Vector3 GetMouseWorldPos()
@@ -59,21 +59,27 @@ public class Hammer : NetworkBehaviour
             remainingDragTime -= Time.deltaTime;
             remainingTimeBar.SetTimeBar(remainingDragTime / maxDragTime);
         }
+
+        // disable hammer for 2 seconds when the drag time is fully used
+        if (!isDisabled && remainingDragTime < 0)
+        {
+            isDisabled = true;
+            Invoke(nameof(resetEnable), 2f);
+        }
     }
 
     void increaseDragTime()
     {
-        if (remainingDragTime / maxDragTime < 1)
+        if (!isDisabled && remainingDragTime / maxDragTime < 1)
         {
             remainingDragTime += Time.deltaTime;
             remainingTimeBar.SetTimeBar(remainingDragTime / maxDragTime);
         }
     }
 
-    void Update()
+    void handleDrag()
     {
-        if (!IsOwner) return;
-
+        // get mouse position
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -86,6 +92,7 @@ public class Hammer : NetworkBehaviour
             }
         }
 
+        // move hammer
         if (isDragging && remainingDragTime > 0)
         {
             if (!isDisabled)
@@ -109,6 +116,31 @@ public class Hammer : NetworkBehaviour
         }
     }
 
+    // the force to limit hammer's maximum distance to player
+    void restoringForce()
+    {
+        Vector3 hammerPosition = this.transform.position;
+        Vector3 originPosition = origin.transform.position;
+        float restoringForceMultiplier = 5;
+
+        if (isDragging && Vector3.Distance(hammerPosition, originPosition) > 5)
+        {
+            rb.AddForce((originPosition - hammerPosition) * rb.velocity.magnitude * restoringForceMultiplier, ForceMode.Force);
+        }
+
+        // decrease velocity when the hammer is not being dragged
+        if (isDisabled || (!isDragging && rb.velocity.magnitude > 3))
+        {
+            rb.velocity *= 0.9f;
+        }
+    }
+
+    void Update()
+    {
+        handleDrag();
+        restoringForce();
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -116,24 +148,16 @@ public class Hammer : NetworkBehaviour
             // Disable dragging for 2 seconds when collided
             isDisabled = true;
 
-            // compute the dealing damage
+            // compute dealing damage
             float hitVelocity = GetComponent<Rigidbody>().velocity.magnitude;
             float hitDamage = hammerPower * hitVelocity;
 
             // get the collided player as PlayerHealth and deal damage
             PlayerHealth otherPlayer = collision.gameObject.GetComponent<PlayerHealth>();
-
-            if (otherPlayer != null && otherPlayer.playerId.Value != hammerId.Value && !isAttacked && hitVelocity > 8)
+            if (otherPlayer != null && otherPlayer.playerId != hammerId && !isAttacked && hitVelocity > 8)
             {
-                Debug.Log(hammerId.Value);
-                Debug.Log(otherPlayer.playerId.Value);
-
-                Debug.Log(otherPlayer.playerId.Value != hammerId.Value);
-
-                otherPlayer.TakeDamageServerRpc((int)hitDamage);
-
+                otherPlayer.TakeDamage(((int)hitDamage));
                 isAttacked = true;
-                Debug.Log(otherPlayer.currentHealth.Value);
             }
 
             Invoke(nameof(resetEnable), disableTime);
