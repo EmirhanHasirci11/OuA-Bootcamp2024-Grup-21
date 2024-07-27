@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3428869001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -240,6 +244,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3949553120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -307,6 +315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2960365483
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -373,6 +385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 263566544
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -394,6 +410,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3932601069
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1584807097
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -461,6 +481,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 1621198274
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 647899920
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (37)
@@ -527,6 +551,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 457199005
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1411857672
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (65)
@@ -592,6 +620,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 960104197
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1886946101
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -703,6 +735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3905719434
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -768,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1110305583
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -835,6 +875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3365493088
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -900,6 +944,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2824024805
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -967,6 +1015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2842150838
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -988,6 +1040,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 128403613
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1357173652
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -1054,6 +1110,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1213790064
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2195709014
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -1165,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1899380185
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1185,7 +1249,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (5)
+      value: SpawnTile9
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1233,7 +1297,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168132756}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &85014160 stripped
@@ -1297,6 +1364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 881997385
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1318,6 +1389,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2422094212
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2830314340
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -1384,6 +1459,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2909846555
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2431595650
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -1495,6 +1574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2218934888
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1516,6 +1599,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3349819872
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2855260004
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -1627,6 +1714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3330527889
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1692,6 +1783,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 515489170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1759,6 +1854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1349997490
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1824,6 +1923,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4140369256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1891,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2590210385
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1956,6 +2063,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 488700561
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2023,6 +2134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3208915520
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2088,6 +2203,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3502026189
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2155,6 +2274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 355872713
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2220,6 +2343,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4090757899
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2287,6 +2414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2425121367
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2352,6 +2483,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2875108464
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2419,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3252160638
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2440,6 +2579,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4164681190
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4014891306
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -2551,6 +2694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1477830502
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2572,6 +2719,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 610152658
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 321994738
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -2638,6 +2789,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 151853145
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4059689454
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -2749,6 +2904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (193)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2568424145
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2770,6 +2929,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4072539814
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3220032567
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -2881,6 +3044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 832577706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2947,6 +3114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2158850418
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2968,6 +3139,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1346928186
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 67934938
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -3079,6 +3254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3200928018
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3100,6 +3279,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2666781954
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3350344824
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -3211,6 +3394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3036394666
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3276,6 +3463,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1041603584
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3343,6 +3534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2168753082
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3408,6 +3603,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3302970595
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3475,6 +3674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 945360266
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3540,6 +3743,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4221541043
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3607,6 +3814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2444279355
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3672,6 +3883,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3981052092
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3739,6 +3954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2559848932
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3760,6 +3979,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 94992200
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2482031564
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -3871,6 +4094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3177617939
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3936,6 +4163,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 761749088
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4003,6 +4234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1443551648
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4024,6 +4259,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2255168348
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 814891124
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -4090,6 +4329,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3345436083
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4020904982
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -4201,6 +4444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4216362177
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4211,6 +4458,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 440273821}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &444061121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444061122}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444061122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444061121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.707107, z: -0, w: 0.70710665}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.08333331, y: 0.041666668, z: 0.08333331}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1020011782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &445662273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4267,6 +4545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 541301547
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4288,6 +4570,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 412353195
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1764987282
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -4399,6 +4685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3232052996
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4465,6 +4755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1259043765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4486,6 +4780,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2586359836
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3293475140
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -4597,6 +4895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3675801427
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4606,72 +4908,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 472107493}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &481245069
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1085311875}
-    m_Modifications:
-    - target: {fileID: -2416505843922090341, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2610438127
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -107.41893
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.4542811
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 141.04193
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071069
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-      propertyPath: m_Name
-      value: TileFloor (54)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
---- !u!4 &481245070 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
-  m_PrefabInstance: {fileID: 481245069}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &482162197
 PrefabInstance:
@@ -4728,6 +4964,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1915234256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4795,6 +5035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 840664466
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4860,6 +5104,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 788223067
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4927,6 +5175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 789048350
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4992,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 715609284
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5059,6 +5315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3179341403
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5080,6 +5340,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 513959208
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2591010102
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -5191,6 +5455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 385420205
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5212,6 +5480,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1309474694
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3471475643
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -5279,6 +5551,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2257419332
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2730623396
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (86)
@@ -5344,6 +5620,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1711621553
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 428194338
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -5455,6 +5735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3061400907
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5476,6 +5760,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1022748905
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 609574344
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -5586,6 +5874,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 989913447
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5702,6 +5994,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 990599366
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1229220119
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (17)
@@ -5812,6 +6108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2736683368
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5833,6 +6133,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4064363768
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 247539108
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -5944,6 +6248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4008379776
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6009,6 +6317,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2345815160
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6076,6 +6388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1029278027
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6142,6 +6458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1784723437
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6163,6 +6483,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2009242111
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2023450754
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -6274,6 +6598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2826734765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6294,7 +6622,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (6)
+      value: SpawnTile3
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6342,7 +6670,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1716513094}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &631315239 stripped
@@ -6405,6 +6736,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1509359001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6472,6 +6807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1327630311
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6538,6 +6877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 589908946
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6559,6 +6902,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1084835498
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1277792250
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -6670,6 +7017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2892570838
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6680,6 +7031,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 642271878}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &645937113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645937115}
+  - component: {fileID: 645937114}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &645937114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645937113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 1006127595
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!4 &645937115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645937113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.1504, y: -5202.574, z: -8.299777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &666878400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6735,6 +7139,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 107424388
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6802,6 +7210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4081843645
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6823,6 +7235,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4148489323
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2587142082
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -6890,6 +7306,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 1924114369
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4138245101
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (13)
@@ -6955,6 +7375,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 734399565
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4043868613
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7066,6 +7490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1430048302
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7076,6 +7504,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 713343621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &715803371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 715803372}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715803372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715803371}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.083333336, y: 0.041666668, z: 0.083333336}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1175117186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &718654628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7087,6 +7546,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2437118280
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1828403411
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7153,6 +7616,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3877594008
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1328356520
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7264,6 +7731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2482917937
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7285,6 +7756,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3446297019
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1885426376
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7352,6 +7827,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 3861400239
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2353062256
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (93)
@@ -7417,6 +7896,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 716269844
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 601643778
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7528,6 +8011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3082120946
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7549,6 +8036,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2491543924
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1833484932
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7660,6 +8151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2816820634
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7726,6 +8221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2942506803
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7747,6 +8246,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 347159359
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1732463361
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -7858,6 +8361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 192901005
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7923,6 +8430,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4237407698
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7990,6 +8501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2312588363
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8055,6 +8570,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3702053639
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8122,6 +8641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4077202087
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8187,6 +8710,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2839652831
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8254,6 +8781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3808503836
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8274,7 +8805,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (4)
+      value: SpawnTile5
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8322,7 +8853,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1830386176}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &820365529 stripped
@@ -8341,6 +8875,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1589759733
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2813352704
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -8452,6 +8990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2263653331
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8518,6 +9060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2904642193
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8539,6 +9085,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1855483738
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4155629814
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -8605,6 +9155,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 954391218
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1315355313
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -8716,6 +9270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1556845451
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8737,6 +9295,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4049622577
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4118763687
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -8848,6 +9410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1987297746
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8869,6 +9435,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1737385808
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 918435655
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -8924,6 +9494,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8042463759363213206, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
   m_PrefabInstance: {fileID: 916365611}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &924319797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924319798}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &924319798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924319797}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.707107, z: -0, w: 0.70710665}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.08333331, y: 0.041666668, z: 0.08333331}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1113286120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &928605089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928605090}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928605090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928605089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.083333336, y: 0.041666668, z: 0.083333336}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1643129873}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &946433281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8979,6 +9611,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3102419729
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9046,6 +9682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 163303644
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9056,6 +9696,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 949971319}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &951733954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951733955}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &951733955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951733954}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalScale: {x: 0.083333336, y: 0.041666668, z: 0.083333336}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5547639268115555422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953832227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9067,6 +9738,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1965550491
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1993854761
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -9178,6 +9853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3081824291
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9243,6 +9922,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 105582224
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9310,6 +9993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2658317433
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9375,6 +10062,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2084446265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9442,6 +10133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 993182035
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9508,6 +10203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4093206544
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9529,6 +10228,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1006399247
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4253710274
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -9640,6 +10343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4291901303
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9661,6 +10368,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2284881963
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1100097003
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -9726,7 +10437,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (2)
+      value: SpawnTil4
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9774,7 +10485,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 444061122}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &1020011782 stripped
@@ -9837,6 +10551,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4140372566
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9904,6 +10622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3894951486
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9925,6 +10647,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 901970628
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2649120160
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -10036,6 +10762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2512806435
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10101,6 +10831,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 66068450
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10168,6 +10902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2332520482
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10234,6 +10972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1965848995
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10299,6 +11041,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3325045477
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10467,6 +11213,7 @@ Transform:
   - {fileID: 886964164}
   - {fileID: 2018718546}
   - {fileID: 794316469}
+  - {fileID: 1950749344}
   - {fileID: 1978980680}
   - {fileID: 13387903}
   - {fileID: 1230353516}
@@ -10520,7 +11267,6 @@ Transform:
   - {fileID: 1190085209}
   - {fileID: 666878401}
   - {fileID: 1417076762}
-  - {fileID: 481245070}
   - {fileID: 949971320}
   - {fileID: 815023085}
   - {fileID: 912979996}
@@ -10644,6 +11390,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2942834041
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4243339318
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (11)
@@ -10754,6 +11504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3256033603
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10820,6 +11574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1978497338
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10841,6 +11599,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4003002112
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3247935239
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -10952,6 +11714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4014806793
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10972,7 +11738,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (3)
+      value: SpawnTile7
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11020,7 +11786,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 924319798}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &1113286120 stripped
@@ -11084,6 +11853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3432572043
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11105,6 +11878,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2789764851
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3022454210
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -11216,6 +11993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 869090002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11237,6 +12018,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 196298480
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4168068641
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -11348,6 +12133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2883000006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11369,6 +12158,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1985781450
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1087242616
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -11424,6 +12217,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8042463759363213206, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
   m_PrefabInstance: {fileID: 1161059725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1168132755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1168132756}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168132756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168132755}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.707107, z: -0, w: 0.70710665}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.08333331, y: 0.041666668, z: 0.08333331}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 85014160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1168751593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11479,6 +12303,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4168398417
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11546,6 +12374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2269843616
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11586,7 +12418,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5547639268115555422}
-  - {fileID: 2013053827}
   - {fileID: 631315239}
   - {fileID: 1020011782}
   - {fileID: 820365529}
@@ -11652,6 +12483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 759047784
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11672,7 +12507,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (1)
+      value: SpawnTile6
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11720,7 +12555,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 715803372}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &1175117186 stripped
@@ -11784,6 +12622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 334735258
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11805,6 +12647,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3197884083
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 403245635
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -11916,6 +12762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3463777490
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11937,6 +12787,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2472063771
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2583837752
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12003,6 +12857,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 933717683
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 532973731
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12114,6 +12972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1782741282
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12180,6 +13042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4240130235
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12201,6 +13067,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 830524064
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2399498724
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12267,6 +13137,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 600208671
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2842456897
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12378,6 +13252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 532682353
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12399,6 +13277,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3114875358
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3963394685
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12465,6 +13347,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3191128804
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2189491037
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12576,6 +13462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 98944008
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12641,6 +13531,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 749659666
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12708,6 +13602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3229619354
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12729,6 +13627,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 79408453
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2611036249
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -12840,6 +13742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1092521840
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12905,6 +13811,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1257560040
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12972,6 +13882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3537291109
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13037,6 +13951,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3660130769
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13104,6 +14022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2620628356
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13125,6 +14047,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 187960324
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2574532678
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -13236,6 +14162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2041781765
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13257,6 +14187,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2831114152
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 509731567
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -13368,6 +14302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1608684714
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13433,6 +14371,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (181)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3602466995
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13500,6 +14442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3868607560
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13566,6 +14512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 148721234
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13587,6 +14537,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 928693737
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2727267229
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -13698,6 +14652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 770108347
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13763,6 +14721,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 629699752
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13830,6 +14792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3115046251
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13895,6 +14861,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4095779922
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13962,6 +14932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3233241019
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13983,6 +14957,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 741293648
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2336975900
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -14094,6 +15072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1891989482
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14159,6 +15141,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 772752989
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14226,6 +15212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2781575198
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14247,6 +15237,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2740658411
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3407821782
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -14358,6 +15352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4131625880
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14379,6 +15377,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1880632487
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1663092560
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -14490,6 +15492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2157534737
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14555,6 +15561,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2000583421
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14622,6 +15632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2238799072
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14688,6 +15702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4937097
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14709,6 +15727,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2847332084
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2697609227
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -14775,6 +15797,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2171256619
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1868845111
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -14886,6 +15912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (194)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1022323230
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14951,6 +15981,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3461765035
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15018,6 +16052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3527956203
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15039,6 +16077,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 532312316
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4221476503
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -15150,6 +16192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 407648059
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15216,6 +16262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1897600548
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15237,6 +16287,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 472359673
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3239347995
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -15348,6 +16402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3893490673
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15414,6 +16472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1488103007
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15434,7 +16496,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint (7)
+      value: SpawnTile8
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15482,7 +16544,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 928605090}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &1643129873 stripped
@@ -15545,6 +16610,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3675560520
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15612,6 +16681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1951410223
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15633,6 +16706,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3065842618
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 967848326
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -15744,6 +16821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1354261111
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15809,6 +16890,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1792149071
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15876,6 +16961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 202141835
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15941,6 +17030,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1710223689
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16008,6 +17101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2322515602
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16074,6 +17171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3375872062
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16095,6 +17196,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3726215226
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1282782867
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -16150,6 +17255,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8042463759363213206, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
   m_PrefabInstance: {fileID: 1705195005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716513093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716513094}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716513094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716513093}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.083333336, y: 0.041666668, z: 0.083333336}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 631315239}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1716903745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16206,6 +17342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2201475149
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16227,6 +17367,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3972823907
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 808559721
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -16338,6 +17482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2463228150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16403,6 +17551,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1053396715
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16470,6 +17622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (136)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 419307249
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16535,6 +17691,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2490116309
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16602,6 +17762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2885012760
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16667,6 +17831,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2887227077
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16734,6 +17902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 137328317
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16799,6 +17971,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2077122281
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16866,6 +18042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 804887152
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16931,6 +18111,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 575975394
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16998,6 +18182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 209500052
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17063,6 +18251,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 585763295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17130,6 +18322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3224172977
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17151,6 +18347,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3228978478
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3696199425
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -17216,6 +18416,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1816294198}
   - component: {fileID: 1816294199}
+  - component: {fileID: 1816294200}
+  - component: {fileID: 1816294201}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -17250,6 +18452,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 032efa5f76b8cd64182fc23a68ecafff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1816294200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816294197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2038347602
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &1816294201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816294197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0127a051d98687d409f252be093f1c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 951733955}
+  - {fileID: 1168132756}
+  - {fileID: 1716513094}
+  - {fileID: 444061122}
+  - {fileID: 1830386176}
+  - {fileID: 715803372}
+  - {fileID: 928605090}
+  - {fileID: 924319798}
+  Players:
+  - {fileID: 1227978629495126812, guid: 06be644de03591149a770344dbd08488, type: 3}
+  - {fileID: 1227978629495126812, guid: cf560604b10407244bd620b6ff3ffa61, type: 3}
+  - {fileID: 1227978629495126812, guid: 06be644de03591149a770344dbd08488, type: 3}
+  - {fileID: 1227978629495126812, guid: 99cc6888a5e6ee54ab86c6f7b0bd881a, type: 3}
+  - {fileID: 1227978629495126812, guid: 0d6310767e5adb84ea5d53c912c9dd7f, type: 3}
+  - {fileID: 1227978629495126812, guid: 38510bf04ac4a99439059ac17c7a5a7e, type: 3}
+  - {fileID: 1227978629495126812, guid: e55042ba083763945a0be7b22fd7443a, type: 3}
+  - {fileID: 1227978629495126812, guid: 31b9aace60a09194eac37c473e55bb68, type: 3}
 --- !u!1001 &1820434362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17261,6 +18514,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 602670595
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1838721487
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -17328,6 +18585,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 136480641
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 278112311
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (45)
@@ -17382,6 +18643,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8042463759363213206, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
   m_PrefabInstance: {fileID: 1826093122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1830386175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830386176}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1830386176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830386175}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.707107, z: -0, w: 0.70710665}
+  m_LocalPosition: {x: 0, y: 0.717, z: 0}
+  m_LocalScale: {x: 0.08333331, y: 0.041666668, z: 0.08333331}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 820365529}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1848353636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17437,6 +18729,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1938628601
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17504,6 +18800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3033841444
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17525,6 +18825,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2241900253
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 333903418
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -17636,6 +18940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 219106563
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17701,6 +19009,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 503226099
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17768,6 +19080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1525148671
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17834,6 +19150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2027689396
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17855,6 +19175,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1738157637
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1218349627
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -17921,6 +19245,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2486240844
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 961662728
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18032,6 +19360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3465790217
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18053,6 +19385,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4001220569
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1076646376
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18164,6 +19500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3169920419
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18173,6 +19513,80 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 1947794438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1950749343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1085311875}
+    m_Modifications:
+    - target: {fileID: -2416505843922090341, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2646704359
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -107.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4542811
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 141.04198
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: m_Name
+      value: TileFloor (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3516272441
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3703360596
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+--- !u!4 &1950749344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+  m_PrefabInstance: {fileID: 1950749343}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1956711218
 PrefabInstance:
@@ -18229,6 +19643,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3716408522
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18296,6 +19714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2786584332
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18317,6 +19739,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2307070180
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2015165005
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18383,6 +19809,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 982455251
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1423866893
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18494,6 +19924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1969012764
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18515,6 +19949,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2435295312
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1354477335
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18626,6 +20064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3617900630
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18635,72 +20077,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 194401209801336314, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
   m_PrefabInstance: {fileID: 2012368091}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2013053826
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1171338031}
-    m_Modifications:
-    - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_Name
-      value: SpawnPoint (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -48.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -50.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -299.76132
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7657817121918973734, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 1902525743
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
---- !u!4 &2013053827 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
-  m_PrefabInstance: {fileID: 2013053826}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2015984439
 PrefabInstance:
@@ -18758,6 +20134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2888844335
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18779,6 +20159,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1106797236
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2274234671
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -18890,6 +20274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3841345420
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18911,6 +20299,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3940965147
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3780603417
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -19022,6 +20414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3066594284
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19087,6 +20483,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2818434285
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19154,6 +20554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2073461466
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19219,6 +20623,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4218350266
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19286,6 +20694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1991070564
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19351,6 +20763,10 @@ PrefabInstance:
     - target: {fileID: 3844356924568602960, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
       propertyPath: m_Name
       value: TileFloor (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3906932313
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19418,6 +20834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 101842103
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19484,6 +20904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 510200164
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19505,6 +20929,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2803305412
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1125419584
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -19616,6 +21044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2113699577
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19635,8 +21067,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2093495247}
-  - component: {fileID: 2093495246}
   - component: {fileID: 2093495245}
+  - component: {fileID: 2093495248}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -19671,7 +21103,22 @@ MonoBehaviour:
     PacketDelayMS: 0
     PacketJitterMS: 0
     PacketDropRate: 0
---- !u!114 &2093495246
+--- !u!4 &2093495247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093495244}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 43.49214, y: 21.075012, z: 135.25467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2093495248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19680,16 +21127,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093495244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593a2fe42fa9d37498c96f9a383b6521, type: 3}
+  m_Script: {fileID: 11500000, guid: 519d90935c80eb940940e2f37079e5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 2093495245}
-    PlayerPrefab: {fileID: 1227978629495126812, guid: cf560604b10407244bd620b6ff3ffa61, type: 3}
+    PlayerPrefab: {fileID: 645937113}
     Prefabs:
       NetworkPrefabsLists:
-      - {fileID: 11400000, guid: 417f187f88db6124194763a55f6ec99b, type: 2}
+      - {fileID: 11400000, guid: 19d2a09b386981d4c84e07e9db0c0c4b, type: 2}
     TickRate: 60
     ClientConnectionBufferTimeout: 10
     ConnectionApproval: 0
@@ -19708,21 +21155,6 @@ MonoBehaviour:
     OldPrefabList: []
   RunInBackground: 1
   LogLevel: 1
---- !u!4 &2093495247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093495244}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.49214, y: 21.075012, z: 135.25467}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2098933947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19734,6 +21166,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3507988820
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1648841683
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -19800,6 +21236,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4155945494
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2551840876
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -19911,6 +21351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3528237845
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19977,6 +21421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 31547859
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19998,6 +21446,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3423128886
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1323946122
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -20064,6 +21516,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 185747906
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3495234872
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -20175,6 +21631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4033474110
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20196,6 +21656,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2471981716
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1364445827
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -20263,6 +21727,10 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2932622409
       objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2672117907
+      objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
       value: TileStair (57)
@@ -20327,7 +21795,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410120226616486314, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint
+      value: SpawnTile
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20335,7 +21803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -49.4
+      value: -28.63836
       objectReference: {fileID: 0}
     - target: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20375,7 +21843,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7594544175682017037, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 951733955}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79929adf7adde0f4abf37393745abb77, type: 3}
 --- !u!4 &5547639268115555422 stripped
@@ -20394,6 +21865,10 @@ PrefabInstance:
     - target: {fileID: -2676798834352642125, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 2689541903
+      objectReference: {fileID: 0}
+    - target: {fileID: -1662951860880576375, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2350871961
       objectReference: {fileID: 0}
     - target: {fileID: 1532981035363308374, guid: db0ed5d1de8ba1242833fdfea61e1d7e, type: 3}
       propertyPath: m_Name
@@ -20505,6 +21980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 8138292709661709530, guid: c60040b7cee5f7b42903ca0b611f12fe, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1029162683
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20524,3 +22003,4 @@ SceneRoots:
   - {fileID: 1816294198}
   - {fileID: 2093495247}
   - {fileID: 1171338031}
+  - {fileID: 645937115}

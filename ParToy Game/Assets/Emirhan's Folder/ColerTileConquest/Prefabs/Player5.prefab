@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 8822703191210392866}
   - component: {fileID: 8910159748228211733}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3770769498
+  GlobalObjectIdHash: 1520084528
   InScenePlacedSourceGlobalObjectIdHash: 881821868
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -447,7 +447,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 542c22720989c684f856c3069739963f, type: 2}
+  - {fileID: 2100000, guid: 5cb28fae63486454c931368d797ba6de, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -876,7 +876,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 542c22720989c684f856c3069739963f, type: 2}
+  - {fileID: 2100000, guid: 5cb28fae63486454c931368d797ba6de, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

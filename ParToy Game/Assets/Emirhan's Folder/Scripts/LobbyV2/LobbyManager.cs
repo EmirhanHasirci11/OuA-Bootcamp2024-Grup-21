@@ -3,17 +3,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using TMPro;
 using Unity.Services.Authentication;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 {
@@ -22,6 +17,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         private static Lobby _lobby;
         private Coroutine _hearthbeatCoroutine;
         private Coroutine _refreshLobbyCoroutine;
+
         public async Task<bool> CreateLobby(string lobbyName, int maxPlayer, bool isPrivate, Dictionary<string, string> data, Dictionary<string, string> lobbyData)
         {
             Dictionary<string, PlayerDataObject> playerData = SerializePlayerData(data);
@@ -36,11 +32,9 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             try
             {
                 _lobby = await LobbyService.Instance.CreateLobbyAsync(lobbyName, maxPlayer, options);
-
             }
             catch (Exception)
             {
-
                 return false;
             }
 
@@ -70,6 +64,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
                 yield return new WaitForSecondsRealtime(waitTimeSeconds);
             }
         }
+
         private static CancellationTokenSource _updateLobbySource;
         private static async void PeriodicallyRefreshLobby()
         {
@@ -82,21 +77,6 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
                 await Task.Delay(1 * 1000);
             }
         }
-        private IEnumerator RefreshLobbyCoroutine(string lobbyId, float waitTimeSeconds)
-        {
-            while (true)
-            {
-                Task<Lobby> task = LobbyService.Instance.GetLobbyAsync(lobbyId);
-                yield return new WaitUntil(() => task.IsCompleted);
-                Lobby newLobby = task.Result;
-                if (newLobby.LastUpdated > _lobby.LastUpdated)
-                {
-                    _lobby = newLobby;
-                    LobbyEvents.OnLobbyUpdated?.Invoke(_lobby);
-                }
-                yield return new WaitForSecondsRealtime(waitTimeSeconds);
-            }
-        }
 
         private Dictionary<string, PlayerDataObject> SerializePlayerData(Dictionary<string, string> data)
         {
@@ -107,6 +87,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             }
             return playerData;
         }
+
         public void OnApplicationQuit()
         {
             if (_lobby != null && _lobby.HostId == AuthenticationService.Instance.PlayerId)
@@ -130,13 +111,12 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             {
                 _lobby = await LobbyService.Instance.JoinLobbyByCodeAsync(code, options);
             }
-            catch (System.Exception)
+            catch (Exception)
             {
                 return false;
             }
 
             PeriodicallyRefreshLobby();
-
             return true;
         }
 
@@ -166,7 +146,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             {
                 _lobby = await LobbyService.Instance.UpdatePlayerAsync(_lobby.Id, playerId, options);
             }
-            catch (System.Exception)
+            catch (Exception)
             {
                 return false;
             }
@@ -177,7 +157,6 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
 
         public string GetHostId()
         {
-
             return _lobby.HostId;
         }
 
@@ -185,6 +164,7 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
         {
             return _lobby;
         }
+
         public async Task<bool> UpdateLobbyData(Dictionary<string, string> data)
         {
             Dictionary<string, DataObject> lobbyData = SerializeLobbyData(data);
@@ -197,81 +177,40 @@ namespace Assets.Emirhan_s_Folder.Scripts.LobbyV2
             try
             {
                 _lobby = await LobbyService.Instance.UpdateLobbyAsync(_lobby.Id, options);
-
             }
-            catch (System.Exception)
+            catch (Exception)
             {
                 return false;
             }
 
             LobbyEvents.OnLobbyUpdated(_lobby);
-
             return true;
         }
 
-        internal async Task<bool> GetLobbies(GameObject prefab, GameObject container, Dictionary<string, string> playerData)
+        public LobbyPlayerData GetPlayerDataFromLobby()
         {
-            GetLobbiesTest(prefab, container, playerData);
-            return true;
-        }
-        public async void GetLobbiesTest(GameObject prefab, GameObject container, Dictionary<string, string> playerData)
-        {
-            try
+            string currentPlayerId = AuthenticationService.Instance.PlayerId;
+
+            List<Dictionary<string, PlayerDataObject>> allPlayerData = GetPlayerData();
+
+            Dictionary<string, PlayerDataObject> targetPlayerData = allPlayerData
+                .FirstOrDefault(player => player.ContainsKey("Id") && player["Id"].Value == currentPlayerId);
+
+            if (targetPlayerData != null)
             {
-                ClearLobbyButtons(container);
-                QueryLobbiesOptions options = new();
-                Debug.Log(message: "QueryLobbiesTest");
-                options.Count = 25;
-
-                options.Filters = new List<QueryFilter>()
-            {
-                new QueryFilter(field:QueryFilter.FieldOptions.AvailableSlots,op:QueryFilter.OpOptions.GT,value:"0")
-            };
-
-                options.Order = new List<QueryOrder>()
-            {
-                new QueryOrder(asc:false,field:QueryOrder.FieldOptions.Created)
-            };
-
-
-                QueryResponse lobbies = await Lobbies.Instance.QueryLobbiesAsync(options);
-                Debug.Log(message: "Get Lobbies Done COUNT: " + lobbies.Results.Count);
-                foreach (Lobby FoundedLobby in lobbies.Results)
-                {
-                    Debug.Log(message: "Lobby İsmi = " + FoundedLobby.Name + "\n" +
-                                       "Lobby oluşturulma vakti = " + FoundedLobby.Created + "\n CODE:"
-                                       + FoundedLobby.LobbyCode + "\n ID:"
-                                       + FoundedLobby.Id);
-                    CreateLobbyPrefabs(FoundedLobby, prefab, container, playerData);
-                }
-
+                LobbyPlayerData playerData = new LobbyPlayerData();
+                playerData.Initialize(targetPlayerData);
+                return playerData;
             }
-            catch (LobbyServiceException e)
+            else
             {
-                Debug.Log(e);
+                return null;
             }
-
         }
 
-        public void CreateLobbyPrefabs(Lobby lobby, GameObject prefab, GameObject container, Dictionary<string, string> playerData)
-        {
-            var button = Instantiate(prefab, Vector3.zero, Quaternion.identity);
-            button.name = $"{lobby.Name} Button";
-            button.GetComponentInChildren<TextMeshProUGUI>().text = lobby.Name;
-            var recTransform = button.GetComponent<RectTransform>();
-            recTransform.SetParent(container.transform);
-            button.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate () { LobbyClick(lobby, playerData); });
-        }
-        public async void LobbyClick(Lobby lobby, Dictionary<string, string> playerData)
-        {
-            Debug.Log("Clicked Lobby: " + lobby.Name);
-            await LobbyManager.Instance.JoinLobby(lobby.LobbyCode, playerData);
-            SceneManager.LoadScene("CurrentLobby");
-
-        }
         public void ClearLobbyButtons(GameObject container)
         {
-            if (container is not null && container.transform.childCount > 0)
+            if (container != null && container.transform.childCount > 0)
             {
                 foreach (Transform item in container.transform)
                 {

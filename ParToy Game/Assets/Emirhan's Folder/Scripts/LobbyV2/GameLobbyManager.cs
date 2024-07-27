@@ -33,21 +33,14 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
         _colors.Add(4, Color.magenta);
         _colors.Add(5, Color.cyan);
         _colors.Add(6, Color.grey);
-        _colors.Add(7, Color.white);
+        _colors.Add(7, Color.black);
         LobbyEvents.OnLobbyUpdated += OnLobbyUpdated;
     }
 
     private void OnDisable()
     {
         LobbyEvents.OnLobbyUpdated -= OnLobbyUpdated;
-    }
-    public async Task<bool> GetLobbies(GameObject prefab, GameObject container)
-    {
-        _localLobbyPlayerData = new LobbyPlayerData();
-        _localLobbyPlayerData.Initialize(AuthenticationService.Instance.PlayerId, "JoinPlayer");
-        bool succeeded = await LobbyManager.Instance.GetLobbies(prefab,container, _localLobbyPlayerData.Serialize());
-        return succeeded;
-    }
+    }   
     public async Task<bool> CreateLobby(string lobbyName,bool isPrivate,int maxPlayer, string gameMode)
     {
         _maxNumberOfPlayer=maxPlayer;
@@ -79,7 +72,8 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
         int index = 0;
         foreach (Dictionary<string, PlayerDataObject> data in playerData)
         {
-            data["Color"]= new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, _colors[index++].ToString());
+            data["Color"]= new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, _colors[index].ToString());
+            data["LobbyColor"] = new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, _colors[index++].ToString());
             LobbyPlayerData lobbyPlayerData = new LobbyPlayerData();
             lobbyPlayerData.Initialize(data);            
 
@@ -109,8 +103,7 @@ public class GameLobbyManager : Singleton<GameLobbyManager>
         {
             await JoinRelayServer(_lobbyData.RelayJoinCode);
             await SceneManager.LoadSceneAsync("ColorTileConquest");
-        }
-       
+        }       
     }
 
     private async Task<bool> JoinRelayServer(string value)

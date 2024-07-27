@@ -19,7 +19,7 @@ public class LobbyPlayer : MonoBehaviour
         Transform body = transform.Find("Body");
         Renderer BodyRender = body.GetComponent<Renderer>();
         BodyRender.GetPropertyBlock(_materialBlock);
-        _materialBlock.SetColor("_Color",_data.Color);
+        _materialBlock.SetColor("_Color",_data.LobbyColor);
         BodyRender.SetPropertyBlock(_materialBlock);
     }
     public void SetData(LobbyPlayerData data)

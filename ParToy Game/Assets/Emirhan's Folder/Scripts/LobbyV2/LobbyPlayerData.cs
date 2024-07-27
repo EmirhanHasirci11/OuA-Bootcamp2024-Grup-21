@@ -1,24 +1,27 @@
-using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using Unity.Services.Lobbies.Models;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class LobbyPlayerData : MonoBehaviour
+public class LobbyPlayerData : NetworkBehaviour
 {
     private string _id;
     private string _gamertag;
     private bool _isReady;
-    private Color _color;
-
+    private NetworkVariable<Color> _color = new NetworkVariable<Color>();
+    private Dictionary<string, PlayerDataObject> playerDataRet;
+    public Dictionary<string, PlayerDataObject> PlayerDataRet => playerDataRet;
     public string Id => _id;
     public string Gamertag => _gamertag;
-    public Color Color => _color;
+    public NetworkVariable<Color> Color => _color;
+    private Color _lobbyColor;
+    public Color LobbyColor => _lobbyColor;
     public bool IsReady
     {
         get => _isReady;
         set => _isReady = value;
     }
+
     public void Initialize(string id, string gamertag)
     {
         _id = id;
@@ -27,6 +30,7 @@ public class LobbyPlayerData : MonoBehaviour
 
     public void Initialize(Dictionary<string, PlayerDataObject> playerData)
     {
+        playerDataRet = playerData;
         UpdateState(playerData);
     }
 
@@ -46,12 +50,19 @@ public class LobbyPlayerData : MonoBehaviour
         }
         if (playerData.ContainsKey("Color"))
         {
-            string Body_Color = playerData["Color"].Value;
-            string[] rgba = Body_Color.Substring(5, Body_Color.Length - 6).Split(", ");
+            string bodyColor = playerData["Color"].Value;
+            string[] rgba = bodyColor.Substring(5, bodyColor.Length - 6).Split(", ");
             Color color = new Color(float.Parse(rgba[0]), float.Parse(rgba[1]), float.Parse(rgba[2]), float.Parse(rgba[3]));
-            _color = color;
-            Debug.Log(_color.ToString());
+            _color.Value = color;
         }
+        if (playerData.ContainsKey("LobbyColor"))
+        {
+            string bodyColor = playerData["LobbyColor"].Value;
+            string[] rgba = bodyColor.Substring(5, bodyColor.Length - 6).Split(", ");
+            Color color = new Color(float.Parse(rgba[0]), float.Parse(rgba[1]), float.Parse(rgba[2]), float.Parse(rgba[3]));
+            _lobbyColor = color;
+        }
+        playerDataRet = playerData;
     }
 
     public Dictionary<string, string> Serialize()
@@ -61,7 +72,8 @@ public class LobbyPlayerData : MonoBehaviour
             { "Id", _id },
             { "Gamertag", _gamertag },
             { "IsReady", _isReady.ToString() },
-            {"Color",_color.ToString() }
+            { "Color", _color.ToString() },
+            { "LobbyColor", _lobbyColor.ToString() },
         };
     }
 }

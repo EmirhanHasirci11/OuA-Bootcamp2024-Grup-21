@@ -30,9 +30,7 @@ public class TileCaptureCollision : NetworkBehaviour
             Renderer renderer = other.gameObject.GetComponent<Renderer>();
             if (renderer.material != playerColorMaterial)
             {
-                renderer.material = playerColorMaterial;
-                Debug.Log(renderer.material);
-                Debug.Log(playerColorMaterial);
+                renderer.material = playerColorMaterial;              
             }
         }
     }
