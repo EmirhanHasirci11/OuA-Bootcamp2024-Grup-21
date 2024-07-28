@@ -229,6 +229,14 @@ public class TileConquestCharController : NetworkBehaviour
         networkPlayerState.Value = newState;
     }
 
+    [ServerRpc]
+    private void ServerSetJumpingStateServerRpc(bool isJumping)
+    {
+        PlayerState newState = networkPlayerState.Value;
+        newState.isJumping = isJumping;
+        networkPlayerState.Value = newState;
+    }
+
     private void HandleJump()
     {
         if (isJumpPressed && !isJumping && characterController.isGrounded)
@@ -239,7 +247,6 @@ public class TileConquestCharController : NetworkBehaviour
 
             if (IsServer)
             {
-                // Synchronize jump immediately for the host
                 PlayerState newState = networkPlayerState.Value;
                 newState.isJumping = true;
                 newState.verticalVelocity = currentMovement.y;
@@ -247,11 +254,10 @@ public class TileConquestCharController : NetworkBehaviour
             }
             else
             {
-                // Send a jump request to the server
-                ServerJumpRequestServerRpc();
+                ServerSetJumpingStateServerRpc(true);
             }
         }
-        isJumpPressed = false; // Consume the jump input (prevents continuous jumping)
+        isJumpPressed = false;
     }
 
     private void HandleAnimation()
