@@ -10,48 +10,42 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
         [SerializeField] private Renderer playerRenderer;
         private LobbyPlayerData _lobbyPlayerData;
 
-        // Initialize with a default color 
-        public NetworkVariable<Color> Color = new NetworkVariable<Color>(UnityEngine.Color.white);
+        private NetworkVariable<Color> _playerColor = new NetworkVariable<Color>();
+        private NetworkVariable<int> _capturedTiles = new NetworkVariable<int>(0);
 
-        public static class ColorTracker
+        public Color PlayerColor
         {
-            public static NetworkVariable<Dictionary<Color, int>> ColorCounts =
-                new NetworkVariable<Dictionary<Color, int>>(new Dictionary<Color, int>(),
-                NetworkVariableReadPermission.Everyone,
-                NetworkVariableWritePermission.Server);
+            get => _playerColor.Value;
+            private set => _playerColor.Value = value;
+        }
 
-            // Static constructor to ensure initialization
-            static ColorTracker()
-            {
-                if (ColorCounts.Value == null)
-                {
-                    ColorCounts.Value = new Dictionary<Color, int>();
-                }
-            }
+        public int CapturedTiles
+        {
+            get => _capturedTiles.Value;
+            private set => _capturedTiles.Value = value;
         }
 
         public override void OnNetworkSpawn()
         {
             base.OnNetworkSpawn();
-
             _lobbyPlayerData = LobbyManager.Instance.GetPlayerDataFromLobby();
 
             if (IsServer)
             {
                 InitializePlayer(_lobbyPlayerData);
-
-                // Server: Reset ColorCounts on scene load
-                if (ColorTracker.ColorCounts.Value == null)
-                {
-                    ColorTracker.ColorCounts.Value = new Dictionary<Color, int>();
-                }
-
                 NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
             }
             else if (IsOwner)
             {
                 InitializePlayer(_lobbyPlayerData);
             }
+
+            _playerColor.OnValueChanged += OnPlayerColorChanged;
+        }
+
+        private void OnPlayerColorChanged(Color previousColor, Color newColor)
+        {
+            playerRenderer.material.color = newColor;
         }
 
         public override void OnNetworkDespawn()
@@ -61,14 +55,13 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
                 NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
             }
             base.OnNetworkDespawn();
+
+            _playerColor.OnValueChanged -= OnPlayerColorChanged;
         }
 
         private void OnClientConnected(ulong clientId)
         {
-            if (IsServer)
-            {
-                UpdateColorCountsServerRpc(_lobbyPlayerData.LobbyColor, 1);
-            }
+            // Kullanılmıyor
         }
 
         public void InitializePlayer(LobbyPlayerData playerData)
@@ -76,48 +69,79 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
             if (IsServer || IsOwner)
             {
                 _lobbyPlayerData = playerData;
-                Color.Value = _lobbyPlayerData.LobbyColor;
                 gameObject.name = _lobbyPlayerData.Gamertag;
+
+                PlayerColor = playerRenderer.material.color;
             }
         }
 
-        public void ColorTile(Tile tileToColor, Color newColor)
+        [ServerRpc(RequireOwnership = false)]
+        public void CaptureTileServerRpc(bool isAdding, Color oldTileColor)
         {
-            if (!IsOwner) return;
-            tileToColor.ColorTileServerRpc(newColor, NetworkObjectId);
-        }
-
-        [ServerRpc]
-        public void UpdateColorCountsServerRpc(Color color, int change)
-        {
-            var currentCounts = ColorTracker.ColorCounts.Value;
-
-            if (currentCounts == null)
+            if (isAdding)
             {
-                currentCounts = new Dictionary<Color, int>();
-            }
-
-            if (currentCounts.ContainsKey(color))
-            {
-                currentCounts[color] += change;
-                Debug.Log(currentCounts[color]);
+                CapturedTiles++;
+                if (oldTileColor != Color.white)
+                {
+                    GetPlayerByColor(oldTileColor)?.GetComponent<Player>().RemoveCapturedTileServerRpc();
+                }
             }
             else
             {
-                currentCounts.Add(color, change);
+                CapturedTiles--;
             }
 
-            ColorTracker.ColorCounts.Value = currentCounts;
+            Scoreboard scoreboard = FindObjectOfType<Scoreboard>();
+            scoreboard.UpdateScore(OwnerClientId, CapturedTiles);
+
+            // UpdateClientScoreboards fonksiyonunu çağırmadan önce scoreboardEntry dizisini oluşturun
+            Scoreboard.ScoreboardEntry[] scoreboardEntries = new Scoreboard.ScoreboardEntry[NetworkManager.Singleton.ConnectedClientsIds.Count];
+            int index = 0;
+            foreach (ulong clientId in NetworkManager.Singleton.ConnectedClientsIds)
+            {
+                Player player = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId).GetComponent<Player>();
+                scoreboardEntries[index++] = new Scoreboard.ScoreboardEntry
+                {
+                    ClientId = clientId,
+                    PlayerColor = player.PlayerColor,
+                    Score = player.CapturedTiles
+                };
+            }
+            scoreboard.UpdateScoreboardClientRpc(scoreboardEntries);
         }
 
-        public static int GetColorCount(Color color)
+        [ServerRpc(RequireOwnership = false)]
+        public void RemoveCapturedTileServerRpc()
         {
-            if (ColorTracker.ColorCounts.Value != null &&
-                ColorTracker.ColorCounts.Value.ContainsKey(color))
+            CapturedTiles--;
+            Scoreboard scoreboard = FindObjectOfType<Scoreboard>();
+            scoreboard.UpdateScore(OwnerClientId, CapturedTiles);
+
+            Scoreboard.ScoreboardEntry[] scoreboardEntries = new Scoreboard.ScoreboardEntry[NetworkManager.Singleton.ConnectedClientsIds.Count];
+            int index = 0;
+            foreach (ulong clientId in NetworkManager.Singleton.ConnectedClientsIds)
             {
-                return ColorTracker.ColorCounts.Value[color];
+                Player player = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId).GetComponent<Player>();
+                scoreboardEntries[index++] = new Scoreboard.ScoreboardEntry
+                {
+                    ClientId = clientId,
+                    PlayerColor = player.PlayerColor,
+                    Score = player.CapturedTiles
+                };
             }
-            return 0;
+            scoreboard.UpdateScoreboardClientRpc(scoreboardEntries);
+        }
+
+        private GameObject GetPlayerByColor(Color color)
+        {
+            foreach (var player in FindObjectsOfType<Player>())
+            {
+                if (player.PlayerColor == color)
+                {
+                    return player.gameObject;
+                }
+            }
+            return null;
         }
     }
 }

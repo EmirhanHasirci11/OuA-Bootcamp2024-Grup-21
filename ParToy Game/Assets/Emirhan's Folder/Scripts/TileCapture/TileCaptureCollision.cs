@@ -1,36 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
+using Assets.Emirhan_s_Folder.ColerTileConquest.Scripts;
 using Unity.Netcode;
 using UnityEngine;
 
 public class TileCaptureCollision : NetworkBehaviour
 {
-    private Material playerColorMaterial;
+    private Player player;
 
     void Start()
     {
-
-        Transform playerColorTransform = transform.Find("PlayerColorObject");
-
-        if (playerColorTransform != null)
-        {
-            playerColorMaterial = playerColorTransform.GetComponent<Renderer>().material;
-        Debug.Log(playerColorMaterial.color);
-        }
-        else
-        {
-            Debug.LogError("PlayerColor child GameObject not found!");
-        }
+        player = GetComponentInParent<Player>();
     }
-  
+
     private void OnTriggerEnter(Collider other)
-    {        
-        if (other.gameObject.CompareTag("Tile"))
+    {
+        if (other.CompareTag("Tile"))
         {
-            Renderer renderer = other.gameObject.GetComponent<Renderer>();
-            if (renderer.material != playerColorMaterial)
+            Tile tile = other.GetComponent<Tile>();
+
+            if (tile != null && tile.CurrentColor != player.PlayerColor)
             {
-                renderer.material = playerColorMaterial;              
+                tile.ChangeColorServerRpc(player.PlayerColor, tile.CurrentColor);
             }
         }
     }
