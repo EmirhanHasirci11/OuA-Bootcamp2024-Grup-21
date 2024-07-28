@@ -9,26 +9,10 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
     {
         [SerializeField] private Renderer playerRenderer;
         private LobbyPlayerData _lobbyPlayerData;
+        
+        
 
-        // Initialize with a default color 
-        public NetworkVariable<Color> Color = new NetworkVariable<Color>(UnityEngine.Color.white);
-
-        public static class ColorTracker
-        {
-            public static NetworkVariable<Dictionary<Color, int>> ColorCounts =
-                new NetworkVariable<Dictionary<Color, int>>(new Dictionary<Color, int>(),
-                NetworkVariableReadPermission.Everyone,
-                NetworkVariableWritePermission.Server);
-
-            // Static constructor to ensure initialization
-            static ColorTracker()
-            {
-                if (ColorCounts.Value == null)
-                {
-                    ColorCounts.Value = new Dictionary<Color, int>();
-                }
-            }
-        }
+   
 
         public override void OnNetworkSpawn()
         {
@@ -40,11 +24,7 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
             {
                 InitializePlayer(_lobbyPlayerData);
 
-                // Server: Reset ColorCounts on scene load
-                if (ColorTracker.ColorCounts.Value == null)
-                {
-                    ColorTracker.ColorCounts.Value = new Dictionary<Color, int>();
-                }
+                
 
                 NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
             }
@@ -67,7 +47,7 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
         {
             if (IsServer)
             {
-                UpdateColorCountsServerRpc(_lobbyPlayerData.LobbyColor, 1);
+              
             }
         }
 
@@ -76,48 +56,11 @@ namespace Assets.Emirhan_s_Folder.ColerTileConquest.Scripts
             if (IsServer || IsOwner)
             {
                 _lobbyPlayerData = playerData;
-                Color.Value = _lobbyPlayerData.LobbyColor;
+                
                 gameObject.name = _lobbyPlayerData.Gamertag;
             }
         }
 
-        public void ColorTile(Tile tileToColor, Color newColor)
-        {
-            if (!IsOwner) return;
-            tileToColor.ColorTileServerRpc(newColor, NetworkObjectId);
-        }
-
-        [ServerRpc]
-        public void UpdateColorCountsServerRpc(Color color, int change)
-        {
-            var currentCounts = ColorTracker.ColorCounts.Value;
-
-            if (currentCounts == null)
-            {
-                currentCounts = new Dictionary<Color, int>();
-            }
-
-            if (currentCounts.ContainsKey(color))
-            {
-                currentCounts[color] += change;
-                Debug.Log(currentCounts[color]);
-            }
-            else
-            {
-                currentCounts.Add(color, change);
-            }
-
-            ColorTracker.ColorCounts.Value = currentCounts;
-        }
-
-        public static int GetColorCount(Color color)
-        {
-            if (ColorTracker.ColorCounts.Value != null &&
-                ColorTracker.ColorCounts.Value.ContainsKey(color))
-            {
-                return ColorTracker.ColorCounts.Value[color];
-            }
-            return 0;
-        }
-    }
+       
+}
 }
