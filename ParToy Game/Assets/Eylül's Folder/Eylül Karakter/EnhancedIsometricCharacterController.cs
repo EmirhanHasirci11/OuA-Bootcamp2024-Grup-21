@@ -17,8 +17,8 @@ public class EnhancedIsometricCharacterController : MonoBehaviour
     private bool isRunPressed;
 
     // constants
-    private float movementSpeed = 2.0f;
-    private float runSpeed = 5.0f;
+    private float movementSpeed = 5.0f;
+    private float runSpeed = 8.0f;
     private float rotationFactorPerFrame = 15.0f;
     private float groundedGravity = -.05f;
     private float gravity = -9.8f;
