@@ -27,7 +27,7 @@ public class Init : MonoBehaviour
                 }
             }
 
-            await SceneManager.LoadSceneAsync("Lobby");
+            await SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }

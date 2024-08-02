@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Emirhan's Folder/Scenes/Init.unity
     guid: 5e9285850d3f69146879ed8bc210823a
   - enabled: 1
+    path: Assets/Enes/Scenes/MainMenuScene.unity
+    guid: 0567c87dcb6cfcd44ab9995579de7005
+  - enabled: 1
     path: Assets/Emirhan's Folder/Scenes/Lobby.unity
     guid: 397a3fd2005dda948978e2ce28b60dde
   - enabled: 1
@@ -17,8 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Emirhan's Folder/ColerTileConquest/Scene/ColorTileConquest.unity
     guid: 4ad72f6261c94f741a1b32b3023132d6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Enes/Scenes/HammerGameScene.unity
     guid: 13d7afd1a89617643a57155468c89e45
+  - enabled: 1
+    path: Assets/Emre/Maps/DevelopingMap.unity
+    guid: eb38775f52f27c0418fc552a7b6aa710
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

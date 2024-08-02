@@ -202,11 +202,11 @@ OuA-Bootcamp2024-Grup-21
 
 ### Minigame Fotoğrafları
 
-#### Color Tile Conquest Minigame
+#### Color Tile Capture Minigame
 
 - Oyuncuların, koştukları zemini, ait oldukları renge boyayarak süre bitimi sonunda en çok zemin rengine sahip olan oyuncunun kazandığı bir minigame.
 
-![Color Tile Conquest](https://github.com/user-attachments/assets/354f1ab9-dc3e-44ef-a4ed-454d573dbd88)
+![Color Tile Capture](https://github.com/user-attachments/assets/354f1ab9-dc3e-44ef-a4ed-454d573dbd88)
 
 #### Iced Labyrinth Minigame
 
@@ -250,7 +250,7 @@ OuA-Bootcamp2024-Grup-21
 - Ana menü, lobi arama, lobi oluşturma, lobiye katılma ve lobi içi UI tasarımları ve kodlanması tamamlandı.
 - Oyun içi karakter özelleştirmesinde kullanılacak olan eşyaların satılması için bir mağaza ve kullanıcıların sahip oldukları eşyaları görebilecekleri bir envanter sistemi hazırlanıp, UI tasarımları yapıldı.
 - Unity Game Services alt yapısında bulunan Lobby ve Relay servislerinin çalıştırılabilmesi için mimariler oluşturuldu ve hazırlanan lobi UI tasarımlarına entegre edildi.
-#### **Color Tile Conquest yapılanlar:**
+#### **Color Tile Capture yapılanlar:**
 
 - TPS kamera kontrolü ve buna özel karakter kontrol script'i yazıldı.
 - Kullanıcının değdiği platformların değiştirilmesi ve takip edilmesi için bir script yazıldı.
@@ -297,5 +297,77 @@ OuA-Bootcamp2024-Grup-21
 - Oyuncuların karakterlerini özelleştirip, kendi stillerini oluşturabilmeleri için bir market ve envanter sistemi düzenleyerek, oyunun ticaretleştirilebilitesini artırdık ve güzel bir pazarlama sistemi kurduk.
 - Birden farklı minigame üzerinde çalışarak, ekipteki herkesin aktif bir öğrenim, gelişim ve katkıda bulunmasına olanak sağladık.
 - Tasarlanan minigame'lerin yukarıda verilen görsellerdeki halleri sadece test aşaması için geliştirilen kısımdır, oyunun çıkış sürümünde belirlenen konsepte ve tasarımlara uygun olacak şekilde düzenlenecektir.
+
+
+## Sprint 3
+
+### -- Sprint Notları--
+
+- Minigame'ler üzerindeki hatalar çözüldü ve local olarak tamamen çalışan hale getirildi.
+- Lobiye katılan kişilere özel renk ataması gerçekleştirilerek lobi içerisinde oynanan oyunlar boyunca aynı renklere sahip olmaları amaçlandı.
+- Online alt yapı düzenlerek karakterlerin hareket senkronizasyonu sağlandı.
+- Bootcamp üç sprint üzerinden yürütüleceği için **300-400-300** olarak sprintlere tamamlanması tahmin edilen puan olarak ataması gerçekleştirilen puanlardan, 2.Sprint içerisinde tamamlanması hedeflenen **300** tahmini puanın altında kalarak **200** puanlık kısım tamamlanmıştır.
+- Online alt yapı her minigame'e uygun çalışmadığı için oyunlar demo haliyle local çalışacak şekilde eski hale getirilmiştir.
+
+### -- Sprint 3 Daily Scrum Chats --
+
+![Meet](https://github.com/user-attachments/assets/309b6e83-b8c6-4eb9-93f8-a76cb9da3bf3)
+
+![Meet2](https://github.com/user-attachments/assets/aa4acae4-ff1f-4359-8fd6-ea8ba58fa437)
+
+**:green_book: YEŞİL OLANLAR 20 PUAN**
+**:orange_book:TURUNCU OLANLAR 40 PUAN**
+**:closed_book:KIRMIZI OLANLAR 60 PUAN**
+
+![Backlog](https://github.com/user-attachments/assets/3c9f8cc5-7cea-4b43-9db9-eafaff99c70c)
+
+## --Oyun içi Görselleri-- 
+
+#### --Lobby Scene Change--
+
+![Lobby](https://github.com/user-attachments/assets/3d7947e4-9823-4d9e-aa5d-c0ca5958f532)
+
+#### --Main Menu--
+
+![Main Menu](https://github.com/user-attachments/assets/f51c54cc-9bb3-4c2f-aced-7bf3f4a21f6f)
+
+#### **--Color Tile Capture--**
+
+![Color Tile Capture](https://github.com/user-attachments/assets/08b49d56-770c-489f-a436-98844c42873a)
+
+#### **--Hammer Brawl--**
+
+![Hammer Brawl](https://github.com/user-attachments/assets/25927ca7-725b-4fb7-a699-f610e1a94550)
+
+#### **--Race to the top--**
+
+![Race to the top](https://github.com/user-attachments/assets/ec69b886-e346-4d39-8cb6-ba71010ebb24)
+
+#### **--Kart Brawl--**
+
+![Kart Brawl](https://github.com/user-attachments/assets/df0914bb-9340-4f4c-86f0-50ae455b5aa4)
+
+#### **--Iced Labyrinth--**
+
+![Screenshot_54](https://github.com/user-attachments/assets/9c4bd7a6-8126-4a5c-b3f5-645087c2069f)
+
+
+### - 3. Sprint Review -
+
+- Online sorunlar için alt yapı düzenlemesi yapıldı.
+- Oyun içerisinde seyir zevkini artırmak ve anlaşılabilirliği yükseltmek için her karaktere lobi içerisinde renk ataması gerçekleştirildi.
+- Hazırlanan minigame'ler, online kütüphanein sorun çıkarması sonucu local'de çalışacak hale döndürülerek genel demo buildi alındı.
+- Minigame'lerde bulunan tasarımlarda görsel iyileştirmelere gidildi.
+- Ana menü oyuna eklenerek bir demo çalışması yapıldı.
+
+### - 3. Sprint Retrospective -
+- Online alt yapı tecrübemiz olmadığı için hazırladığımız minigame'leri rahat bir şekilde parti oyununa çevirebiliriz sandık fakat online kodlama ve tasarım kısmı tamamen farklı olduğu için online bir şekilde oyunları birbirlerine bağlayamadık. Tecrübesiz olduğumuz bir alanda fazla özgüvenli davrandığımız için oyunumuz yetişmedi.
+- Karşılaştığımız beklenmedik hataları çözmek için tahmin edilenden çok daha fazla süre harcadık ve bu yüzden tamamlanması planlan tasklarda geride kaldık. Her zaman hata çözümü için daha fazla vakit bırakılması gerektiği konusunda dersimizi aldık.
+
+
+#### -Üçüncü Sprint Jüri Notu-
+- Hazırladığımız minigame'ler local bir şekilde oynanabilir olarak çalışıyor fakat oyun içerisnde scene olarak birbirlerine bağlayacak alt yapıyı yetiştiremedik.
+- Color Tile Capture oyunu lobi kurularak girilen ve çalışan bir minigame' olarak demoya eklendi ve forma gönderildi.
+- Multiplayer konusunda bilgisiz olduğumuz için daha fazla iş başarabileceğimizi düşünerek herkese bir sürü farklı mekanik eklemesine imkan verdiğimiz için online alt yapıda oyunları birleştirmek konusunda sıkıntı yaşadık ve bu yüzden oyunumuz istendiği gibi bitirilemedi.
 
 ---
