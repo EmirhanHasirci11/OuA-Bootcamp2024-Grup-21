@@ -327,6 +327,8 @@ OuA-Bootcamp2024-Grup-21
 
 ![Lobby](https://github.com/user-attachments/assets/3d7947e4-9823-4d9e-aa5d-c0ca5958f532)
 
+![image](https://github.com/user-attachments/assets/991afded-1b2b-4d1c-99b9-4fe8f6bf2b3f)
+
 #### --Main Menu--
 
 ![Main Menu](https://github.com/user-attachments/assets/f51c54cc-9bb3-4c2f-aced-7bf3f4a21f6f)
