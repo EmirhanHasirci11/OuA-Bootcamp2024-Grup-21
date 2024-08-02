@@ -31,7 +31,10 @@ public class CreateLobby : MonoBehaviour
         opts.Player = new Player(AuthenticationService.Instance.PlayerId);
         opts.Player.Data = new Dictionary<string, PlayerDataObject>()
             {
-                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0") }
+                {"TotalScore",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"0") },
+                {"Id",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,opts.Player.Id) },
+                {"GamerTag",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"HostPlayer") },
+                {"isReady",new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member,"False") }
             };
 
         opts.Data = new Dictionary<string, DataObject>()

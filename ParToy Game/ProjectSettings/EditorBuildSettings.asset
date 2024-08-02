@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Emirhan's Folder/Scenes/Init.unity
+    guid: 5e9285850d3f69146879ed8bc210823a
+  - enabled: 1
     path: Assets/Emirhan's Folder/Scenes/Lobby.unity
     guid: 397a3fd2005dda948978e2ce28b60dde
   - enabled: 1
     path: Assets/Emirhan's Folder/Scenes/CurrentLobby.unity
     guid: b6c0d757869aa6147a3a440bddd36c5a
   - enabled: 1
+    path: Assets/Emirhan's Folder/ColerTileConquest/Scene/ColorTileConquest.unity
+    guid: 4ad72f6261c94f741a1b32b3023132d6
+  - enabled: 0
     path: Assets/Enes/Scenes/HammerGameScene.unity
     guid: 13d7afd1a89617643a57155468c89e45
   m_configObjects: {}

@@ -6,28 +6,28 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      value: 0653075e52025c5d585c0a7047200f44474f1e29797d74317a2b4b32e3b76568
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 56030d545253085d5e575e75487b084442164e2b7b7e24637b7e4836b5b03739
+      value: 5750505157535f095b5f0f7b44250844471649287f7a24637d7b4e62b1b2306e
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 5b08005107570a0a5e0a0a2116260b44124e41737e7a7267787d446be7e26261
+      value: 56540d545d00510e5d0a5f24467a0e44404f4f73292c7e322e7b4c63bab26739
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 0107575601025c0c5558552311750e4441164b2b787c7632292d1960b4e36139
+      value: 5704065256055a0d5b575d7a487b0f44124f1b7d282a76677d2f4966b4b6656c
       flags: 0
     RecentlyUsedSceneGuid-4:
-      value: 5008030756530d095d5e5926142206444e4e4f72297a25357f711f65b2e4303d
+      value: 5003050004065b0f585d5d2716215d4417164d2f2e2924347e7d486bb0e16139
       flags: 0
     RecentlyUsedSceneGuid-5:
-      value: 53040251060d5e5f0e0c5a2116205b4442161a73757173657a701936b5b0646d
+      value: 500904575d010b035d5d5d7149225e44104e402c752b2731297d1f36b6b2633b
       flags: 0
     RecentlyUsedSceneGuid-6:
-      value: 5202505104530d0a0c5655744174094445164d7d7d7d73647b711e6bbbe5606d
+      value: 0552565556535c5a595d0a27497a5944154e4c7c2e7f7462282d4430e4b23061
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 5750505157535f095b5f0f7b44250844471649287f7a24637d7b4e62b1b2306e
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 5b5550565602595e58585b2044260f4415164f297d792336297c4f64b3b26460
@@ -43,7 +43,7 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-  m_DesiredImportWorkerCount: 3
+  m_DesiredImportWorkerCount: 5
   m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
