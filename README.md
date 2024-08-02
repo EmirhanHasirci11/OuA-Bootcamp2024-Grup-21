@@ -306,7 +306,7 @@ OuA-Bootcamp2024-Grup-21
 - Minigame'ler üzerindeki hatalar çözüldü ve local olarak tamamen çalışan hale getirildi.
 - Lobiye katılan kişilere özel renk ataması gerçekleştirilerek lobi içerisinde oynanan oyunlar boyunca aynı renklere sahip olmaları amaçlandı.
 - Online alt yapı düzenlerek karakterlerin hareket senkronizasyonu sağlandı.
-- Bootcamp üç sprint üzerinden yürütüleceği için **300-400-300** olarak sprintlere tamamlanması tahmin edilen puan olarak ataması gerçekleştirilen puanlardan, 2.Sprint içerisinde tamamlanması hedeflenen **300** tahmini puanın altında kalarak **200** puanlık kısım tamamlanmıştır.
+- Bootcamp üç sprint üzerinden yürütüleceği için **300-400-300** olarak sprintlere tamamlanması tahmin edilen puan olarak ataması gerçekleştirilen puanlardan, 3.Sprint içerisinde tamamlanması hedeflenen **300** tahmini puanın altında kalarak **200** puanlık kısım tamamlanmıştır.
 - Online alt yapı her minigame'e uygun çalışmadığı için oyunlar demo haliyle local çalışacak şekilde eski hale getirilmiştir.
 
 ### -- Sprint 3 Daily Scrum Chats --
